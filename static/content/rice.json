@@ -1,0 +1,38 @@
+{
+    "Rice": {
+      "Crop Overview": {
+        "Common_Name": "Rice",
+        "Botanical_Name": "Oryza sativa",
+        "Family": "Poaceae",
+        "Origin": "Asia",
+        "Varieties": ["Basmati", "IR64", "Swarna"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Clayey or loamy soils",
+        "pH_Levels": "5.0 - 6.5",
+        "Nutrient Requirements": {
+          "Nitrogen": "100-150 kg/ha",
+          "Phosphorus": "50-60 kg/ha",
+          "Potassium": "50-60 kg/ha",
+          "Calcium": "30-40 kg/ha",
+          "Sulfur": "20-25 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "20°C - 37°C",
+        "Rainfall": "1500 - 2000 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds and incorporate crop residues.",
+        "Leveling": "Level the field to ensure uniform water distribution.",
+        "Puddling": "Create a soft and muddy field by repeated plowing and harrowing while flooded."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Perform manual or mechanical weeding 15-20 days after transplanting and then at 30-35 days.",
+        "Fertilization": "Top dress with nitrogen fertilizer at different growth stages.",
+        "WaterManagement": "Maintain 2-5 cm of water depth in the field after transplanting."
+      }
+    }
+  }
+  

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/crops.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Home page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/">Agropedia</a>
+            <ul class="links">
+                <div class="dropdown">
+                    <button class="dropbtn">Crops
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/crops">Rice</a>
+                        <a href="/wheat">Wheat</a>
+                        <a href="/maize">Maize</a>
+                        <a href="/sorghum">Sorghum</a>
+                        <a href="/barley">Barley</a>
+                        <a href="/pearl millet">Pearl Millet</a>
+                        <a href="/finger millet">Finger Millet</a>
+                        <a href="/foxtail millet">Foxtail Millet</a>
+                        <a href="/proso millet">Proso Millet</a>
+                        <a href="/barnyardmillet">Barnyard Millet</a>
+                        <a href="/greengram">Green Gram</a>
+                        <a href="/blackgram">Black Gram</a>
+                        <a href="/bengalgram">Bengal Gram</a>
+                        <a href="/pigeonpea">PigeonPea</a>
+                        <a href="/horsegram">Horse Gram</a>
+                        <a href="/cowpea">Cowpea</a>
+                    </div>
+                </div>
+                <li><a href="/pests">Pests</a></li>
+                <li><a href="/diseases">Diseases</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="crop">
+            <h1>Foxtail Millet</h1>
+            <img src="../static/pics/foxtail millet.jpg" alt="">
+        </div>
+        <div class="content overview">
+            <h2>Crop overview</h2>
+            <p id="cmn"><b>Common name: </b></p>
+            <p id="btn"><b>Botanical name: </b></p>
+            <p id="fam"><b>Family: </b></p>
+            <p id="ori"><b>Origin: </b></p>
+            <p id="var"><b>Varieties: </b></p>
+        </div>
+        <div class="content soil">
+            <h2>Soil Requirements</h2>
+            <p id="sty"><b>Soil Type: </b></p>
+            <p id="phl"><b>pH Levels: </b></p>
+        </div>
+        <div class="content nutrients">
+            <h2>Nutrient Requirements</h2>
+            <p id="nit"><b>Nitrogen: </b></p>
+            <p id="pho"><b>Phosphorus: </b></p>
+            <p id="pot"><b>Potassium: </b></p>
+            <p id="cal"><b>Calcium: </b></p>
+            <p id="sul"><b>Sulphur: </b></p>
+        </div>
+        <div class="content climate">
+            <h2>Climate Requirements</h2>
+            <p id="tem"><b>Temperature: </b></p>
+            <p id="rnf"><b>Rainfall: </b></p>
+            <p id="snl"><b>sunlight: </b></p>
+        </div>
+        <div class="content" id="land">
+            <h2>Land preparation</h2>
+            <p id="fir"><b id="kfir"></b></p>
+            <p id="sec"><b id="ksec"></b></p>
+            <p id="thi"><b id="kthi"></b></p>
+        </div>
+        <div class="content" id="intercul">
+            <h2>Interculture operations</h2>
+            <p id="fir"><b id="kfir"></b></p>
+            <p id="sec"><b id="ksec"></b></p>
+            <p id="thi"><b id="kthi"></b></p>
+        </div>
+    </main>
+    <script type="text/javascript">
+        fetch('../static/content/Foxtail Millet.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                document.getElementById("cmn").innerHTML += data['Foxtail Millet']['Crop Overview'].Common_Name;
+                document.getElementById("btn").innerHTML += data['Foxtail Millet']['Crop Overview'].Botanical_Name;
+                document.getElementById("fam").innerHTML += data['Foxtail Millet']['Crop Overview'].Family;
+                document.getElementById("ori").innerHTML += data['Foxtail Millet']['Crop Overview'].Origin;
+                document.getElementById("var").innerHTML += data['Foxtail Millet']['Crop Overview'].Varieties;
+                document.getElementById("sty").innerHTML += data['Foxtail Millet']['Soil Requirements'].Soil_Type;
+                document.getElementById("phl").innerHTML += data['Foxtail Millet']['Soil Requirements'].pH_Levels;
+                document.getElementById("nit").innerHTML += data['Foxtail Millet']['Soil Requirements']["Nutrient Requirements"].Nitrogen;
+                document.getElementById("pho").innerHTML += data['Foxtail Millet']['Soil Requirements']["Nutrient Requirements"].Phosphorus;
+                document.getElementById("pot").innerHTML += data['Foxtail Millet']['Soil Requirements']["Nutrient Requirements"].Potassium;
+                document.getElementById("cal").innerHTML += data['Foxtail Millet']['Soil Requirements']["Nutrient Requirements"].Calcium;
+                document.getElementById("sul").innerHTML += data['Foxtail Millet']['Soil Requirements']["Nutrient Requirements"].Sulfur;
+                document.getElementById("tem").innerHTML += data['Foxtail Millet']['Climate Requirements'].Temperature;
+                document.getElementById("snl").innerHTML += data['Foxtail Millet']['Climate Requirements'].Sunlight;
+                document.getElementById("rnf").innerHTML += data['Foxtail Millet']['Climate Requirements'].Rainfall;
+            })
+            .catch(function (err) {
+                console.log(err);
+            });
+        fetch('../static/content/land preparation.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                prep = data['Foxtail Millet']['LandPreparation'];
+                var name = [];
+                var value = [];
+                var div = document.getElementById("land");
+                for (var i in prep) {
+                    var key = i;
+                    var val = prep[i];
+                    name.push(key);
+                    value.push(val);
+                }
+                div.querySelector("#kfir").innerHTML = name[0] + ": ";
+                div.querySelector("#fir").innerHTML += value[0];
+                div.querySelector("#ksec").innerHTML = name[1] + ": ";
+                div.querySelector("#sec").innerHTML += value[1];
+                div.querySelector("#kthi").innerHTML = name[2] + ": ";
+                div.querySelector("#thi").innerHTML += value[2];
+
+                cult = data['Foxtail Millet']['InterCultivationOperations'];
+                var name = [];
+                var value = [];
+                var div = document.getElementById("intercul");
+                for (var i in cult) {
+                    var key = i;
+                    var val = cult[i];
+                    name.push(key);
+                    value.push(val);
+                }
+                div.querySelector("#kfir").innerHTML = name[0] + ": ";
+                div.querySelector("#fir").innerHTML += value[0];
+                div.querySelector("#ksec").innerHTML = name[1] + ": ";
+                div.querySelector("#sec").innerHTML += value[1];
+                div.querySelector("#kthi").innerHTML = name[2] + ": ";
+                div.querySelector("#thi").innerHTML += value[2];
+            })
+            .catch(function (err) {
+                console.log(err);
+            });
+    </script>
+</body>
+
+</html>

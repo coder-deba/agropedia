@@ -1,0 +1,62 @@
+{
+    "Maize": {
+      "Crop Overview": {
+        "Common_Name": "Maize",
+        "Botanical_Name": "Zea mays",
+        "Family": "Poaceae",
+        "Origin": "Central America",
+        "Varieties": ["Sweet corn", "Popcorn", "Flint corn"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained loamy soils",
+        "pH_Levels": "5.5 - 7.0",
+        "Nutrient Requirements": {
+          "Nitrogen": "150-200 kg/ha",
+          "Phosphorus": "60-80 kg/ha",
+          "Potassium": "60-80 kg/ha",
+          "Calcium": "20-30 kg/ha",
+          "Zinc": "5-10 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "18°C - 27°C",
+        "Rainfall": "500 - 800 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Corn Earworm",
+          "Symptoms": "Damage to kernels",
+          "Management": "Use of Bt varieties, insecticides"
+        },
+        {
+          "Name": "Fall Armyworm",
+          "Symptoms": "Leaf damage, ragged holes",
+          "Management": "Biological control, insecticides"
+        },
+        {
+          "Name": "Stem Borer",
+          "Symptoms": "Bored stems and tassels",
+          "Management": "Pheromone traps, biological control"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Maize Streak Virus",
+          "Symptoms": "Streaks on leaves, stunted growth",
+          "Management": "Resistant varieties, vector control"
+        },
+        {
+          "Name": "Gray Leaf Spot",
+          "Symptoms": "Rectangular lesions on leaves",
+          "Management": "Crop rotation, fungicide application"
+        },
+        {
+          "Name": "Northern Corn Leaf Blight",
+          "Symptoms": "Cigar-shaped lesions on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        }
+      ]
+    }
+  }
+  

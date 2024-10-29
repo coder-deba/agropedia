@@ -1,0 +1,62 @@
+{
+    "Barnyard Millet": {
+      "Crop Overview": {
+        "Common_Name": "Barnyard Millet",
+        "Botanical_Name": "Echinochloa crus-galli",
+        "Family": "Poaceae",
+        "Origin": "Asia",
+        "Varieties": ["Bhumi 1", "Bhumi 2", "Dhan 1"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained loamy soils",
+        "pH_Levels": "5.5 - 7.0",
+        "Nutrient Requirements": {
+          "Nitrogen": "30-50 kg/ha",
+          "Phosphorus": "20-30 kg/ha",
+          "Potassium": "20-30 kg/ha",
+          "Calcium": "20-30 kg/ha",
+      "Iron": "5-10 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "25°C - 35°C",
+        "Rainfall": "600 - 1200 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Stem Borer",
+          "Symptoms": "Bored stems, deadhearts",
+          "Management": "Resistant varieties, biological control"
+        },
+        {
+          "Name": "Aphids",
+          "Symptoms": "Sticky honeydew, stunted growth",
+          "Management": "Natural predators, insecticidal soaps"
+        },
+        {
+          "Name": "Leaf Folder",
+          "Symptoms": "Folded leaves with feeding scars",
+          "Management": "Use of light traps, biological control"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Symptoms": "Yellowing and stunted growth",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Blast",
+          "Symptoms": "Lesions on leaves",
+          "Management": "Crop rotation, resistant varieties"
+        },
+        {
+          "Name": "Rust",
+          "Symptoms": "Reddish-brown pustules",
+          "Management": "Resistant varieties, fungicide application"
+        }
+      ]
+    }
+  }
+  

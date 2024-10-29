@@ -1,0 +1,65 @@
+{
+  "Sorghum": {
+    "Crop Overview": {
+      "Common_Name": "Sorghum",
+      "Botanical_Name": "Sorghum bicolor",
+      "Family": "Poaceae",
+      "Origin": "Northeastern Africa",
+      "Varieties": [
+        "Grain sorghum",
+        "Sweet sorghum",
+        "Forage sorghum"
+      ]
+    },
+    "Soil Requirements": {
+      "Soil_Type": "Well-drained sandy loam or loam soils",
+      "pH_Levels": "5.5 - 7.5",
+      "Nutrient Requirements": {
+        "Nitrogen": "80-120 kg/ha",
+        "Phosphorus": "40-60 kg/ha",
+        "Potassium": "40-60 kg/ha",
+        "Calcium": "20-30 kg/ha",
+        "Iron": "5-10 kg/ha"
+      }
+    },
+    "Climate Requirements": {
+      "Temperature": "25°C - 35°C",
+      "Rainfall": "400 - 800 mm annually",
+      "Sunlight": "Requires full sunlight"
+    },
+    "Pests": [
+      {
+        "Name": "Sorghum Midge",
+        "Symptoms": "Damaged grains, poor seed set",
+        "Management": "Early planting, insecticides"
+      },
+      {
+        "Name": "Stem Borer",
+        "Symptoms": "Tunnels in stems, deadhearts",
+        "Management": "Resistant varieties, biological control"
+      },
+      {
+        "Name": "Shoot Fly",
+        "Symptoms": "Deadhearts, stunted growth",
+        "Management": "Seed treatment, early planting"
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Anthracnose",
+        "Symptoms": "Red lesions on leaves, stems, and grains",
+        "Management": "Resistant varieties, crop rotation"
+      },
+      {
+        "Name": "Grain Mold",
+        "Symptoms": "Discolored grains, mold growth",
+        "Management": "Proper drying, resistant varieties"
+      },
+      {
+        "Name": "Downy Mildew",
+        "Symptoms": "White to yellowish patches on leaves",
+        "Management": "Resistant varieties, fungicide application"
+      }
+    ]
+  }
+}

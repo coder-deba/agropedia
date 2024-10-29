@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.crop{
+    width: 50%;
+    margin: 10px auto;
+}
+.crop h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+.content{
+    background-color: rgba(144, 238, 144, 0.459);
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .content{
+        width: 80%;
+    }
+    .crop{
+        width: 80%;
+    }
+}

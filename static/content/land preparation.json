@@ -1,0 +1,195 @@
+{
+    "Rice": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds and incorporate crop residues.",
+        "Leveling": "Level the field to ensure uniform water distribution.",
+        "Puddling": "Create a soft and muddy field by repeated plowing and harrowing while flooded."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Perform manual or mechanical weeding 15-20 days after transplanting and then at 30-35 days.",
+        "Fertilization": "Top dress with nitrogen fertilizer at different growth stages.",
+        "WaterManagement": "Maintain 2-5 cm of water depth in the field after transplanting."
+      }
+    },
+    "Wheat": {
+      "LandPreparation": {
+        "Plowing": "Deep plow the field to a depth of 20-25 cm to break hard pans.",
+        "Harrowing": "Perform two to three harrowings to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seedbed and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or chemical weeding during early growth stages.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates.",
+        "Irrigation": "Provide timely irrigation at critical growth stages like tillering, booting, and grain filling."
+      }
+    },
+    "Maize": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding 15-20 days after planting and at 30-35 days.",
+        "Fertilization": "Top dress with nitrogen fertilizer at knee-high stage and tasseling.",
+        "Irrigation": "Irrigate the field during critical growth stages like knee-high, tasseling, and grain filling."
+      }
+    },
+    "Sorghum": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 3-4 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Barley": {
+      "LandPreparation": {
+        "Plowing": "Deep plow the field to a depth of 20-25 cm.",
+        "Harrowing": "Harrow the field to create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or chemical weeding during early growth stages.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates.",
+        "Irrigation": "Provide irrigation at critical growth stages like tillering, booting, and grain filling."
+      }
+    },
+    "Pearl Millet": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Finger Millet": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Proso Millet": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Foxtail Millet": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Barnyard Millet": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to break clods and create a fine seedbed.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Pigeon Pea": {
+      "LandPreparation": {
+        "Plowing": "Deep plow the field to a depth of 20-25 cm to incorporate crop residues.",
+        "Harrowing": "Harrow the field to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 3-4 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 3-4 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Green Gram": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Black Gram": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Bengal Gram": {
+      "LandPreparation": {
+        "Plowing": "Deep plow the field to a depth of 20-25 cm to incorporate crop residues.",
+        "Harrowing": "Harrow the field to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 3-4 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 3-4 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Horse Gram": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    },
+    "Cowpea": {
+      "LandPreparation": {
+        "Plowing": "Plow the field to a depth of 15-20 cm to remove weeds.",
+        "Harrowing": "Harrow the field to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seed placement and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or mechanical weeding at 2-3 weeks after sowing.",
+        "Thinning": "Thin the plants to the recommended spacing after 2-3 weeks of sowing.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates."
+      }
+    }
+  }
+  

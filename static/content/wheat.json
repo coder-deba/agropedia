@@ -1,0 +1,38 @@
+{
+    "Wheat": {
+      "Crop Overview": {
+        "Common_Name": "Wheat",
+        "Botanical_Name": "Triticum aestivum",
+        "Family": "Poaceae",
+        "Origin": "Fertile Crescent",
+        "Varieties": ["HD2967", "PBW343", "WH1105"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained loamy or clayey soils",
+        "pH_Levels": "6.0 - 7.5",
+        "Nutrient Requirements": {
+          "Nitrogen": "120-150 kg/ha",
+          "Phosphorus": "60-80 kg/ha",
+          "Potassium": "40-60 kg/ha",
+          "Calcium": "20-30 kg/ha",
+          "Magnesium": "15-20 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "10°C - 24°C",
+        "Rainfall": "500 - 1000 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "LandPreparation": {
+        "Plowing": "Deep plow the field to a depth of 20-25 cm to break hard pans.",
+        "Harrowing": "Perform two to three harrowings to create a fine tilth.",
+        "Leveling": "Level the field to ensure uniform seedbed and water distribution."
+      },
+      "InterCultivationOperations": {
+        "Weeding": "Manual or chemical weeding during early growth stages.",
+        "Fertilization": "Apply nitrogen, phosphorus, and potassium at recommended rates.",
+        "Irrigation": "Provide timely irrigation at critical growth stages like tillering, booting, and grain filling."
+      }
+    }
+  }
+  

@@ -1,0 +1,62 @@
+{
+    "Pearl Millet": {
+      "Crop Overview": {
+        "Common_Name": "Pearl Millet",
+        "Botanical_Name": "Pennisetum glaucum",
+        "Family": "Poaceae",
+        "Origin": "Sahel region of West Africa",
+        "Varieties": ["GHB 558", "HHB 67 Improved", "ICTP 8203"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained sandy or loamy soils",
+        "pH_Levels": "5.5 - 7.0",
+        "Nutrient Requirements": {
+          "Nitrogen": "40-60 kg/ha",
+          "Phosphorus": "20-40 kg/ha",
+          "Potassium": "20-40 kg/ha",
+          "Calcium": "20-30 kg/ha",
+      "Magnesium": "10-15 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "25°C - 35°C",
+        "Rainfall": "200 - 600 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Stem Borer",
+          "Symptoms": "Bored stems, deadhearts",
+          "Management": "Resistant varieties, biological control"
+        },
+        {
+          "Name": "Shoot Fly",
+          "Symptoms": "Deadhearts, stunted growth",
+          "Management": "Seed treatment, early planting"
+        },
+        {
+          "Name": "Grasshoppers",
+          "Symptoms": "Chewed leaves and stems",
+          "Management": "Insecticides, biological control"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Symptoms": "White to yellowish patches on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Rust",
+          "Symptoms": "Reddish-brown pustules on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Ergot",
+          "Symptoms": "Dark sclerotia in place of grains",
+          "Management": "Crop rotation, seed treatment"
+        }
+      ]
+    }
+  }
+  

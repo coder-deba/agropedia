@@ -1,0 +1,62 @@
+{
+    "Bengal Gram": {
+      "Crop Overview": {
+        "Common_Name": "Bengal Gram",
+        "Botanical_Name": "Cicer arietinum",
+        "Family": "Fabaceae",
+        "Origin": "Middle East",
+        "Varieties": ["Pusa 256", "Pusa 367", "Chana 1"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained loamy or sandy soils",
+        "pH_Levels": "6.0 - 7.5",
+        "Nutrient Requirements": {
+          "Nitrogen": "30-40 kg/ha",
+          "Phosphorus": "20-30 kg/ha",
+          "Potassium": "20-30 kg/ha",
+          "Calcium": "20-30 kg/ha",
+      "Sulfur": "15-20 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "20°C - 30°C",
+        "Rainfall": "600 - 1000 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Pod Borer",
+          "Symptoms": "Damaged pods and seeds",
+          "Management": "Pheromone traps, insecticides"
+        },
+        {
+          "Name": "Aphids",
+          "Symptoms": "Sticky honeydew, stunted growth",
+          "Management": "Natural predators, insecticidal soaps"
+        },
+        {
+          "Name": "Whiteflies",
+          "Symptoms": "Yellowing leaves and stunted growth",
+          "Management": "Insecticides, biological control"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Fusarium Wilt",
+          "Symptoms": "Wilting of plants, yellowing leaves",
+          "Management": "Resistant varieties, crop rotation"
+        },
+        {
+          "Name": "Gray Mold",
+          "Symptoms": "Grayish mold on stems and leaves",
+          "Management": "Proper drainage, resistant varieties"
+        },
+        {
+          "Name": "Root Rot",
+          "Symptoms": "Root decay and plant death",
+          "Management": "Well-drained soils, crop rotation"
+        }
+      ]
+    }
+  }
+  

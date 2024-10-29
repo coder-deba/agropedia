@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/pests.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Home page</title>
+</head>
+
+<body>
+    <!-- <img src="bg.jpg" alt="Italian Trulli"> -->
+    <header>
+        <nav>
+            <a href="/">Agropedia</a>
+            <ul class="links">
+                <div class="dropdown">
+                    <button class="dropbtn">Crops
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/crops">Rice</a>
+                        <a href="/wheat">Wheat</a>
+                        <a href="/maize">Maize</a>
+                        <a href="/sorghum">Sorghum</a>
+                        <a href="/barley">Barley</a>
+                        <a href="/pearl millet">Pearl Millet</a>
+                        <a href="/finger millet">Finger Millet</a>
+                        <a href="/foxtail millet">Foxtail Millet</a>
+                        <a href="/proso millet">Proso Millet</a>
+                        <a href="/barnyardmillet">Barnyard Millet</a>
+                        <a href="/greengram">Green Gram</a>
+                        <a href="/blackgram">Black Gram</a>
+                        <a href="/bengalgram">Bengal Gram</a>
+                        <a href="/pigeonpea">PigeonPea</a>
+                        <a href="/horsegram">Horse Gram</a>
+                        <a href="/cowpea">Cowpea</a>
+                    </div>
+                </div>
+                <li><a href="/pests">Pests</a></li>
+                <li><a href="/diseases">Diseases</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pests">
+        <div class="crop">
+            <p>Choose your<b class="bold"> Crop</b></p>
+        </div>
+        <div class="dropdown droppest">
+            <button class="dropbtn">Crops</button>
+            <div class="dropdown-content">
+                <p id="Rice" onclick="pest(this.id)">Rice</p>
+                <p id="Wheat" onclick="pest(this.id)">Wheat</p>
+                <p id="Maize" onclick="pest(this.id)">Maize</p>
+                <p id="Sorghum" onclick="pest(this.id)">Sorghum</p>
+                <p id="Barley" onclick="pest(this.id)">Barley</p>
+                <p id="Pearl_Millet" onclick="pest(this.id)">Pearl Millet</p>
+                <p id="Finger_Millet" onclick="pest(this.id)">Finger Millet</p>
+                <p id="Foxtail_Millet" onclick="pest(this.id)">Foxtail Millet</p>
+                <p id="Proso_Millet" onclick="pest(this.id)">Proso Millet</p>
+                <p id="Barnyard_Millet" onclick="pest(this.id)">Barnyard Millet</p>
+                <p id="Greengram" onclick="pest(this.id)">Green Gram</p>
+                <p id="Blackgram" onclick="pest(this.id)">Black Gram</p>
+                <p id="Bengalgram" onclick="pest(this.id)">Bengal Gram</p>
+                <p id="PigeonPea" onclick="pest(this.id)">PigeonPea</p>
+                <p id="Horsegram" onclick="pest(this.id)">Horse Gram</p>
+                <p id="Cowpea" onclick="pest(this.id)">Cowpea</p>
+            </div>
+        </div>
+        <div class="climate" id="content">
+            <h1 class="colour center">Pests of <b id="crop"></b></h1>
+            <div id="pest1" class="box">
+                <div class="pimage">
+                    <img class="images" id="image1" src="#" alt="pest1">
+                    <img class="images" id="image2" src="#" alt="pest1">
+                </div>
+                <b class="colour" id="knm">Name: </b>
+                <p id="nm"></p>
+                <b class="colour" id="ksnm">Scientific name: </b>
+                <i id="snm"></i><br/>
+                <b class="colour" id="ksym">Symptoms: </b>
+                <p id="sym"></p>
+                <b class="colour" id="kmng">Management: </b>
+                <p id="mng"></p>
+                <b class="colour" id="kcul"></b>
+                <p id="cul"></p>
+                <b class="colour" id="kche"></b>
+                <p id="che"></p>
+                <b class="colour" id="kbio"></b>
+                <p id="bio"></p>
+                <b class="colour" id="kmec"></b>
+                <p id="mec"></p>
+            </div>
+            <div id="pest2" class="box">
+                <div class="pimage">
+                    <img class="images" id="image1" src="#" alt="pest1">
+                    <img class="images" id="image2" src="#" alt="pest1">
+                </div>
+                <b class="colour" id="knm">Name: </b>
+                <p id="nm"></p>
+                <b class="colour" id="ksnm">Scientific name: </b>
+                <i id="snm"></i><br>
+                <b class="colour" id="ksym">Symptoms: </b>
+                <p id="sym"></p>
+                <b class="colour" id="kmng">Management: </b>
+                <p id="mng"></p>
+                <b class="colour" id="kcul"></b>
+                <p id="cul"></p>
+                <b class="colour" id="kche"></b>
+                <p id="che"></p>
+                <b class="colour" id="kbio"></b>
+                <p id="bio"></p>
+                <b class="colour" id="kmec"></b>
+                <p id="mec"></p>
+            </div>
+            <div id="pest3" class="box">
+                <div class="pimage">
+                    <img class="images" id="image1" src="#" alt="pest1">
+                    <img class="images" id="image2" src="#" alt="pest1">
+                </div>
+                <b class="colour" id="knm">Name: </b>
+                <p id="nm"></p>
+                <b class="colour" id="ksnm">Scientific name: </b>
+                <i id="snm"></i><br>
+                <b class="colour" id="ksym">Symptoms: </b>
+                <p id="sym"></p>
+                <b class="colour" id="kmng">Management: </b>
+                <p id="mng"></p>
+                <b class="colour" id="kcul"></b>
+                <p id="cul"></p>
+                <b class="colour" id="kche"></b>
+                <p id="che"></p>
+                <b class="colour" id="kbio"></b>
+                <p id="bio"></p>
+                <b class="colour" id="kmec"></b>
+                <p id="mec"></p>
+            </div>
+            <div id="pest4" class="box">
+                <div class="pimage">
+                    <img class="images" id="image1" src="#" alt="pest1">
+                    <img class="images" id="image2" src="#" alt="pest1">
+                </div>
+                <b class="colour" id="knm"></b>
+                <p id="nm"></p>
+                <b class="colour" id="ksnm">Scientific name: </b>
+                <i id="snm"></i><br>
+                <b class="colour" id="ksym"></b>
+                <p id="sym"></p>
+                <b class="colour" id="kmng"></b>
+                <p id="mng"></p>
+                <b class="colour" id="kcul"></b>
+                <p id="cul"></p>
+                <b class="colour" id="kche"></b>
+                <p id="che"></p>
+                <b class="colour" id="kbio"></b>
+                <p id="bio"></p>
+                <b class="colour" id="kmec"></b>
+                <p id="mec"></p>
+            </div>
+            <div id="pest5" class="box">
+                <div class="pimage">
+                    <img class="images" id="image1" src="#" alt="pest1">
+                    <img class="images" id="image2" src="#" alt="pest1">
+                </div>
+                <b class="colour" id="knm"></b>
+                <p id="nm"></p>
+                <b class="colour" id="ksnm">Scientific name: </b>
+                <i id="snm"></i><br>
+                <b class="colour" id="ksym"></b>
+                <p id="sym"></p>
+                <b class="colour" id="kmng"></b>
+                <p id="mng"></p>
+                <b class="colour" id="kcul"></b>
+                <p id="cul"></p>
+                <b class="colour" id="kche"></b>
+                <p id="che"></p>
+                <b class="colour" id="kbio"></b>
+                <p id="bio"></p>
+                <b class="colour" id="kmec"></b>
+                <p id="mec"></p>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript">
+        function pest(crop) {
+            document.body.style.overflowY = "Scroll";
+            document.getElementById("content").style.visibility = "visible";
+            for (let i = 0; i < 5; i++) {
+                var id = "pest" + (i + 1);
+                var div = document.getElementById(id);
+                div.querySelector("#image1").style.visibility = "hidden";
+                div.querySelector("#image2").style.visibility = "hidden";
+                div.querySelector("#nm").innerHTML = " ";
+                div.querySelector("#snm").innerHTML = " ";
+                div.querySelector("#sym").innerHTML = " ";
+                div.querySelector("#cul").innerHTML = " ";
+                div.querySelector("#che").innerHTML = " ";
+                div.querySelector("#bio").innerHTML = " ";
+                div.querySelector("#mec").innerHTML = " ";
+                div.querySelector("#knm").innerHTML = " ";
+                div.querySelector("#ksnm").innerHTML = " ";
+                div.querySelector("#ksym").innerHTML = " ";
+                div.querySelector("#kcul").innerHTML = " ";
+                div.querySelector("#kche").innerHTML = " ";
+                div.querySelector("#kbio").innerHTML = " ";
+                div.querySelector("#kmec").innerHTML = " ";
+                div.querySelector("#kmng").innerHTML = " ";
+            }
+            fetch('../static/content/pests and diseases.json')
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    pests = data[crop]["Pests"];
+                    document.getElementById("crop").innerHTML = document.getElementById(crop).innerHTML;
+                    k = 1;
+                    for (var i in pests) {
+                        var key = i;
+                        var val = pests[i];
+                        var id = "pest" + (k);
+                        var div = document.getElementById(id);
+                        var name = [];
+                        var value = [];
+                        for (var j in val) {
+                            var sub_key = j;
+                            var sub_val = val[j];
+                            name.push(sub_key);
+                            value.push(sub_val);
+                        }
+                        console.log(value);
+                        div.style.backgroundColor = "rgba(144, 238, 144, 0.459)"
+                        img1 = div.querySelector("#image1");
+                        img1.style.visibility = "visible";
+                        img1.src = value[3];
+                        img2 = div.querySelector("#image2")
+                        img2.style.visibility = "visible";
+                        img2.src = value[4];
+                        div.querySelector("#knm").innerHTML = name[0] + ": ";
+                        div.querySelector("#nm").innerHTML = value[0];
+                        div.querySelector("#ksnm").innerHTML = name[1] + ": ";
+                        div.querySelector("#snm").innerHTML = value[1];
+                        div.querySelector("#ksym").innerHTML = name[2] + ": ";
+                        div.querySelector("#sym").innerHTML = value[2];
+                        div.querySelector("#kmng").innerHTML = name[5] + ": ";
+                        manage = value[5];
+                        var nmanage = [];
+                        var vmanage = [];
+                        for (var m in manage) {
+                            var sub_key = m;
+                            var sub_val = manage[m];
+                            nmanage.push(sub_key);
+                            vmanage.push(sub_val);
+                        }
+                        div.querySelector("#kcul").innerHTML = nmanage[0] + ": ";
+                        div.querySelector("#cul").innerHTML += vmanage[0];
+                        div.querySelector("#kche").innerHTML = nmanage[1] + ": ";
+                        div.querySelector("#che").innerHTML += vmanage[1];
+                        div.querySelector("#kbio").innerHTML = nmanage[2] + ": ";
+                        div.querySelector("#bio").innerHTML += vmanage[2];
+                        div.querySelector("#kmec").innerHTML = nmanage[3] + ": ";
+                        div.querySelector("#mec").innerHTML += vmanage[3];
+                        k = k + 1;
+                    }
+                    console.log(i);
+                })
+                .catch(function (err) {
+                    console.log(err);
+                });
+        }
+    </script>
+</body>
+
+</html>

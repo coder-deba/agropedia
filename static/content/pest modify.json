@@ -1,0 +1,232 @@
+{
+    "Bengal Gram": {
+      "Pests": [
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Helicoverpa armigera",
+          "Symptoms": [
+            "Feeding holes on pods.",
+            "Presence of larvae on the crop.",
+            "Reduced pod formation and damaged seeds."
+          ],
+          "Management": {
+            "Cultural": [
+              "Sow early to avoid peak infestation.",
+              "Intercrop with crops like coriander to reduce pest population."
+            ],
+            "Mechanical": [
+              "Handpick larvae during early infestation stages.",
+              "Use pheromone traps to monitor and capture adult moths."
+            ],
+            "Biological": [
+              "Release egg parasitoids like Trichogramma spp.",
+              "Encourage natural predators such as ladybird beetles and spiders."
+            ],
+            "Chemical": [
+              "Spray insecticides like spinosad or chlorantraniliprole as per recommended guidelines."
+            ]
+          }
+        },
+        {
+          "Name": "Cutworm",
+          "Scientific Name": "Agrotis ipsilon",
+          "Symptoms": [
+            "Cutting of young plants at the base near ground level.",
+            "Wilted and dead seedlings."
+          ],
+          "Management": {
+            "Cultural": [
+              "Keep fields free from weeds and plant debris.",
+              "Practice deep plowing to expose larvae."
+            ],
+            "Mechanical": [
+              "Use light traps to attract and kill adult moths.",
+              "Handpick larvae in the evening when they are active."
+            ],
+            "Biological": [
+              "Apply biocontrol agents like Bacillus thuringiensis.",
+              "Encourage natural predators like birds and predatory beetles."
+            ],
+            "Chemical": [
+              "Apply insecticides such as chlorpyrifos or lambda-cyhalothrin."
+            ]
+          }
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Wilt",
+          "Scientific Name": "Fusarium oxysporum f.sp. ciceri",
+          "Symptoms":"Wilting of young seedlings, Yellowing and drooping of leaves, Stunted growth and death of plants.",
+          "Management": {
+            "Cultural": "Use wilt-resistant varieties, Avoid waterlogged conditions and ensure good field drainage.",
+            "Mechanical": "Remove and burn infected plants, Practice crop rotation with non-leguminous crops.",
+            "Biological": "Apply biocontrol agents like Trichoderma harzianum to the soil, Use organic amendments like compost to improve soil health.",
+            "Chemical": "Seed treatment with fungicides like carbendazim or thiophanate-methyl."
+          }
+        },
+        {
+          "Name": "Ascochyta Blight",
+          "Scientific Name": "Ascochyta rabiei",
+          "Symptoms":"Circular spots on leaves with dark brown margins, Pod lesions, leading to seed shriveling, Severe defoliation in advanced stages.",
+          "Management": {
+            "Cultural": "Grow resistant varieties, Maintain field hygiene by removing infected debris.",
+            "Mechanical": "Remove and destroy infected plant parts, Use wider row spacing to improve air circulation.",
+            "Biological": "Apply biopesticides like Bacillus subtilis to control the disease, Encourage beneficial microorganisms in the soil.",
+            "Chemical": "Apply fungicides like carbendazim or chlorothalonil."
+          }
+        }
+      ]
+    },
+    "Horse Gram": {
+      "Pests": [
+        {
+          "Name": "Leaf Webber",
+          "Scientific Name": "Omiodes indicata",
+          "Symptoms":"Leaves are webbed together and show feeding damage, Skeletonized leaves due to larval feeding.",
+          "Management": {
+            "Cultural": "Sow early to avoid peak infestation, Remove plant debris to reduce pest incidence.",
+            "Mechanical": "Handpick and destroy larvae and pupae, Use light traps to capture adult moths.",
+            "Biological": "Encourage natural predators like spiders and predatory beetles, Apply biopesticides like Bacillus thuringiensis.",
+            "Chemical": "Spray insecticides like carbaryl or lambda-cyhalothrin as recommended."
+          }
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Cercospora Leaf Spot",
+          "Scientific Name": "Cercospora dolichi",
+          "Symptoms": [
+            "Brown circular spots on leaves with a yellow halo.",
+            "Severe defoliation in advanced stages."
+          ],
+          "Management": {
+            "Cultural": [
+              "Use disease-free seeds and resistant varieties.",
+              "Ensure good field hygiene and remove infected debris."
+            ],
+            "Mechanical": [
+              "Remove infected leaves and burn them.",
+              "Ensure good field drainage to reduce humidity."
+            ],
+            "Biological": [
+              "Apply biopesticides like Bacillus subtilis or Trichoderma spp.",
+              "Enhance soil health with organic matter."
+            ],
+            "Chemical": [
+              "Use fungicides like mancozeb or copper oxychloride as per recommendations."
+            ]
+          }
+        }
+      ]
+    },
+    "Cowpea": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora",
+          "Symptoms": [
+            "Curling and distortion of leaves due to sap sucking.",
+            "Sticky honeydew on leaves, which attracts sooty mold.",
+            "Stunted plant growth."
+          ],
+          "Management": {
+            "Cultural": [
+              "Maintain field hygiene by removing weeds that host aphids.",
+              "Plant early-maturing varieties to avoid peak aphid activity."
+            ],
+            "Mechanical": [
+              "Use yellow sticky traps to monitor and control aphid populations.",
+              "Use strong jets of water to dislodge aphids from the plants."
+            ],
+            "Biological": [
+              "Introduce natural enemies like ladybird beetles and lacewings.",
+              "Apply neem oil or other biopesticides."
+            ],
+            "Chemical": [
+              "Spray insecticides like imidacloprid or dimethoate, following recommended guidelines."
+            ]
+          }
+        },
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Maruca vitrata",
+          "Symptoms": [
+            "Feeding damage on flowers and pods.",
+            "Holes in pods, causing grain loss."
+          ],
+          "Management": {
+            "Cultural": [
+              "Use early-maturing varieties.",
+              "Intercrop cowpea with crops like maize or sorghum to reduce pest population."
+            ],
+            "Mechanical": [
+              "Handpick larvae during early infestation stages.",
+              "Use pheromone traps to monitor and control adult moth populations."
+            ],
+            "Biological": [
+              "Release parasitoids like Trichogramma spp.",
+              "Encourage natural predators such as spiders and birds."
+            ],
+            "Chemical": [
+              "Spray insecticides like spinosad or emamectin benzoate as per recommended guidelines."
+            ]
+          }
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Cowpea Mosaic Virus",
+          "Scientific Name": "Cowpea aphid-borne mosaic virus",
+          "Symptoms": [
+            "Mosaic pattern on leaves with light and dark green patches.",
+            "Stunted growth and reduced pod formation."
+          ],
+          "Management": {
+            "Cultural": [
+              "Use virus-resistant varieties.",
+              "Ensure seed health by using certified seeds."
+            ],
+            "Mechanical": [
+              "Remove and destroy infected plants to prevent spread.",
+              "Control aphid populations to reduce virus transmission."
+            ],
+            "Biological": [
+              "Encourage natural enemies of aphids, such as parasitic wasps.",
+              "Apply neem oil to control aphid vectors."
+            ],
+            "Chemical": [
+              "Use insecticides like imidacloprid or thiamethoxam to control aphids."
+            ]
+          }
+        },
+        {
+          "Name": "Anthracnose",
+          "Scientific Name": "Colletotrichum lindemuthianum",
+          "Symptoms": [
+            "Dark sunken lesions on stems, pods, and leaves.",
+            "Pod lesions with black margins and reddish-brown centers.",
+            "Seed infection leading to poor germination."
+          ],
+          "Management": {
+            "Cultural": [
+              "Use disease-free seeds and resistant varieties.",
+              "Rotate crops with non-host species."
+            ],
+            "Mechanical": [
+              "Remove and destroy infected plant debris.",
+              "Ensure proper spacing for better air circulation."
+            ],
+            "Biological": [
+              "Apply biocontrol agents like Trichoderma spp.",
+              "Incorporate organic matter to improve soil health."
+            ],
+            "Chemical": [
+              "Use fungicides like mancozeb or chlorothalonil as per recommendations."
+            ]
+          }
+        }
+      ]
+    }
+  }
+  

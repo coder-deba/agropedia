@@ -1,0 +1,62 @@
+{
+    "Cowpea": {
+      "Crop Overview": {
+        "Common_Name": "Cowpea",
+        "Botanical_Name": "Vigna unguiculata",
+        "Family": "Fabaceae",
+        "Origin": "West Africa",
+        "Varieties": ["Pusa Komal", "Pusa 105", "Kashi Kanchan"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained sandy or loamy soils",
+        "pH_Levels": "6.0 - 7.5",
+        "Nutrient Requirements": {
+          "Nitrogen": "30-50 kg/ha",
+          "Phosphorus": "20-30 kg/ha",
+          "Potassium": "20-30 kg/ha",
+          "Calcium": "20-30 kg/ha",
+      "Magnesium": "10-15 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "20°C - 35°C",
+        "Rainfall": "500 - 1000 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Symptoms": "Sticky honeydew, leaf curling",
+          "Management": "Natural predators, insecticidal soaps"
+        },
+        {
+          "Name": "Leafhoppers",
+          "Symptoms": "Leaf curling, stunted growth",
+          "Management": "Insecticides, crop rotation"
+        },
+        {
+          "Name": "Cutworms",
+          "Symptoms": "Cut seedlings at the soil surface",
+          "Management": "Insecticides, biological control"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Powdery Mildew",
+          "Symptoms": "White powdery spots on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Fusarium Wilt",
+          "Symptoms": "Wilting of plants",
+          "Management": "Resistant varieties, crop rotation"
+        },
+        {
+          "Name": "Bacterial Blight",
+          "Symptoms": "Water-soaked spots on leaves",
+          "Management": "Use of clean seeds, crop rotation"
+        }
+      ]
+    }
+  }
+  

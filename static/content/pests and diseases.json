@@ -1,0 +1,1377 @@
+{
+  "Rice": {
+    "Pests": [
+      {
+        "Name": "Brown Planthopper",
+        "Scientific Name": "Nilaparvata lugens",
+        "Symptoms": "Hopper burn, yellowing of leaves, stunted growth, and plant death.",
+        "Image1": "../static/pics/rice/ricebph1.jpg",
+        "Image2": "../static/pics/rice/ricebph2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper water management, and avoid excessive nitrogen application.",
+          "Mechanical": "Remove and destroy infested plants.",
+          "Biological": "Encourage natural enemies like spiders and mirid bugs.",
+          "Chemical": "Apply insecticides like imidacloprid and buprofezin."
+        }
+      },
+      {
+        "Name": "Rice Leaf Folder",
+        "Scientific Name": "Cnaphalocrocis medinalis",
+        "Symptoms": "Folded leaves, leaf scraping, and white parallel streaks.",
+        "Image1": "../static/pics/rice/ricefolder1.jpg",
+        "Image2": "../static/pics/rice/ricefolder2.jpg",
+        "Management": {
+          "Cultural": "Use resistant varieties, avoid dense planting, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae and pupae.",
+          "Biological": "Release egg parasitoids like Trichogramma spp.",
+          "Chemical": "Spray with insecticides such as chlorpyrifos and lambda-cyhalothrin."
+        }
+      },
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Scirpophaga incertulas",
+        "Symptoms": "Deadhearts in young plants, whiteheads in mature plants, and boreholes in stems.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early maturing varieties, use crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Rice Hispa",
+        "Scientific Name": "Dicladispa armigera",
+        "Symptoms": "Scraped leaf surface, white streaks, and dried leaf margins.",
+        "Image1": "../static/pics/rice/ricehispa1.jpg",
+        "Image2": "../static/pics/rice/ricehispa2.jpeg",
+        "Management": {
+          "Cultural": "Avoid close planting, maintain field sanitation, and remove alternate hosts.",
+          "Mechanical": "Handpick and destroy adult beetles and larvae.",
+          "Biological": "Introduce parasitoids like Anagrus spp. and release predators like ladybird beetles.",
+          "Chemical": "Spray with insecticides such as chlorpyrifos and monocrotophos."
+        }
+      },
+      {
+        "Name": "Rice Gall Midge",
+        "Scientific Name": "Orseolia oryzae",
+        "Symptoms": "Silver shoot or onion shoot, stunted growth, and no grain formation.",
+        "Image1": "../static/pics/rice/ricegallmidge1.jpeg",
+        "Image2": "../static/pics/rice/ricegallmidge2.jpg",
+        "Management": {
+          "Cultural": "Use resistant varieties, synchronize planting, and remove infested tillers.",
+          "Mechanical": "Use light traps to reduce adult populations.",
+          "Biological": "Encourage natural enemies like Platygaster oryzae and Aprostocetus spp.",
+          "Chemical": "Apply insecticides such as carbofuran and fipronil."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Blast",
+        "Scientific Name": "Magnaporthe oryzae",
+        "Image": "https://www.researchgate.net/publication/340272320/figure/fig3/AS:874692646821891@1585554386779/Symptom-of-rice-blast-on-different-plant-parts-a-leaf-blast-b-Neck-rot-c-Collar.jpg",
+        "Symptoms": "Diamond-shaped lesions on leaves, grayish center, and brown margins.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper spacing, and avoid excessive nitrogen application.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tricyclazole and carbendazim."
+        }
+      },
+      {
+        "Name": "Bacterial Leaf Blight",
+        "Scientific Name": "Xanthomonas oryzae pv. oryzae",
+        "Image": "https://www.researchgate.net/publication/359220404/figure/fig1/AS:1141720959975425@1649218897482/Symptoms-of-bacterial-leaf-blight-disease-in-rice-caused-by-Xanthomonas-oryzae-pv.png",
+        "Symptoms": "Yellowing of leaf margins, water-soaked lesions, and drying of leaves.",
+        "Management": {
+          "Cultural": "Use resistant varieties, maintain proper water management, and avoid field activities when plants are wet.",
+          "Mechanical": "Remove and destroy infected plant residues.",
+          "Biological": "Use biocontrol agents like Pseudomonas fluorescens.",
+          "Chemical": "Spray with copper-based bactericides."
+        }
+      },
+      {
+        "Name": "Sheath Blight",
+        "Scientific Name": "Rhizoctonia solani",
+        "Image": "https://www.apsnet.org/edcenter/disandpath/fungalasco/pdlessons/Article%20Images/RiceSheathFig1.jpg",
+        "Symptoms": "Irregular greenish-gray lesions on leaf sheath, wilting, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive nitrogen application.",
+          "Mechanical": "Remove and destroy infected plant parts.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as hexaconazole and validamycin."
+        }
+      },
+      {
+        "Name": "Tungro",
+        "Scientific Name": "Rice tungro bacilliform virus",
+        "Image": "https://ricehopper.wordpress.com/wp-content/uploads/2008/12/tungro-in-field2.gif",
+        "Symptoms": "Yellowing and stunting of plants, reduced tillering, and sterility.",
+        "Management": {
+          "Cultural": "Use resistant varieties, maintain proper plant spacing, and synchronize planting.",
+          "Mechanical": "Remove and destroy infected plants.",
+          "Biological": "Encourage natural enemies like ladybird beetles.",
+          "Chemical": "Apply insecticides to control vector population (e.g., green leafhopper)."
+        }
+      },
+      {
+        "Name": "Brown Spot",
+        "Scientific Name": "Bipolaris oryzae",
+        "Image": "https://apps.lucidcentral.org/ppp_v9/images/entities/rice_brown_leaf_spot_427/5390490lgpt.jpg",
+        "Symptoms": "Brown lesions with yellow halo on leaves, leaf drying, and grain discoloration.",
+        "Management": {
+          "Cultural": "Use resistant varieties, avoid excessive nitrogen application, and maintain proper water management.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Pseudomonas fluorescens.",
+          "Chemical": "Spray with fungicides such as mancozeb and carbendazim."
+        }
+      }
+    ]
+  },
+  "Wheat": {
+    "Pests": [
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Schizaphis graminum",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSHk1kNv4D873zpptuwGdzBfmDCpcIE6PtQ&s",
+        "Image2": "https://cesaraustralia.com/wp-content/uploads/2020/10/Russian-wheat-aphid-Elia-Pirtle-Cesar-Australia-450x270.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Armyworms",
+        "Scientific Name": "Mythimna unipuncta",
+        "Symptoms": "Defoliation, cut stems, and grain damage.",
+        "Image1": "https://guide.utcrops.com/wp-content/uploads/2018/12/True-Armyworm-1-1.png",
+        "Image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOmHj3MmH2mhYmt6ZQKrAiOSs9rk9lPyITQ&s",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae and pupae.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like ground beetles.",
+          "Chemical": "Spray with insecticides such as chlorantraniliprole and lambda-cyhalothrin."
+        }
+      },
+      {
+        "Name": "Hessian Fly",
+        "Scientific Name": "Mayetiola destructor",
+        "Symptoms": "Stunted growth, dark green leaves, and plant lodging.",
+        "Image1": "https://www.researchgate.net/publication/328823534/figure/fig3/AS:877561169068033@1586238295696/Typical-damage-to-wheat-due-to-feeding-by-Hessian-fly-larvae-A-Stunted-growth-of.ppm",
+        "Image2": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Hessian_Fly.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, delay planting, and practice crop rotation.",
+          "Mechanical": "Remove and destroy volunteer wheat plants and infested crop residues.",
+          "Biological": "Encourage natural enemies like parasitic wasps.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam as seed treatments."
+        }
+      },
+      {
+        "Name": "Wheat Stem Sawfly",
+        "Scientific Name": "Cephus cinctus",
+        "Symptoms": "Hollowed stems, plant lodging, and reduced grain yield.",
+        "Image1": "https://www.researchgate.net/publication/242207630/figure/fig2/AS:645697640611840@1530957722521/Larvae-of-wheat-stem-sawfly-being-attacked-by-the-juvenile-stage-of-Bracon-cephi-top.png",
+        "Image2": "https://static.grainews.ca/wp-content/uploads/2018/02/sawfly_cmyk.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, delay planting, and use trap crops.",
+          "Mechanical": "Remove and destroy infested stems and crop residues.",
+          "Biological": "Encourage natural enemies like parasitoid wasps.",
+          "Chemical": "Apply insecticides to reduce adult populations."
+        }
+      },
+      {
+        "Name": "Cereal Leaf Beetle",
+        "Scientific Name": "Oulema melanopus",
+        "Symptoms": "Striped feeding damage on leaves, reduced photosynthesis, and weakened plants.",
+        "Image1": "https://www.no-tillfarmer.com/ext/resources/images/2020/05/cereal-leaf-beetle.jpg?t=1588350787&width=700",
+        "Image2": "https://upload.wikimedia.org/wikipedia/commons/5/59/Oulema_melanopus01.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and practice crop rotation.",
+          "Mechanical": "Handpick and destroy larvae and adult beetles.",
+          "Biological": "Release parasitoids like Tetrastichus julis and use predators like ladybird beetles.",
+          "Chemical": "Spray with insecticides such as malathion and lambda-cyhalothrin."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Rust",
+        "Scientific Name": "Puccinia spp.",
+        "Image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs41348-022-00575-x/MediaObjects/41348_2022_575_Fig3_HTML.jpg",
+        "Symptoms": "Orange-red pustules on leaves and stems, leaf drying, and reduced yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as propiconazole and mancozeb."
+        }
+      },
+      {
+        "Name": "Powdery Mildew",
+        "Scientific Name": "Blumeria graminis",
+        "Image": "https://ohioline.osu.edu/sites/ohioline/files/imce/Plant_Pathology/PLPTH-CER-11_Fig_1.png",
+        "Symptoms": "White powdery spots on leaves, leaf curling, and premature leaf death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive nitrogen application.",
+          "Mechanical": "Remove and destroy infected plant parts.",
+          "Biological": "Apply biocontrol agents like Bacillus subtilis.",
+          "Chemical": "Spray with fungicides such as sulfur and trifloxystrobin."
+        }
+      },
+      {
+        "Name": "Septoria Leaf Blotch",
+        "Scientific Name": "Zymoseptoria tritici",
+        "Image": "https://ohioline.osu.edu/sites/ohioline/files/imce/Plant_Pathology/PLPTH-CER-07_Leaf%20blotch%20diseases%20of%20wheat_2016_Page_1.png",
+        "Symptoms": "Irregular brown lesions with yellow margins on leaves, leaf drying, and reduced grain filling.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive nitrogen application.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Pseudomonas fluorescens.",
+          "Chemical": "Spray with fungicides such as tebuconazole and prothioconazole."
+        }
+      },
+      {
+        "Name": "Fusarium Head Blight",
+        "Scientific Name": "Fusarium graminearum",
+        "Image": "https://www.graincentral.com/wp-content/uploads/2019/06/190618-Fusarium-head-blight-pic-003-wheat.jpg",
+        "Symptoms": "Pinkish-white mold on heads, shriveled grains, and reduced yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, avoid excessive irrigation, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant residues.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as prothioconazole and tebuconazole."
+        }
+      },
+      {
+        "Name": "Karnal Bunt",
+        "Scientific Name": "Tilletia indica",
+        "Image": "https://live.staticflickr.com/4107/5072178080_e0eac35109_b.jpg",
+        "Symptoms": "Partial grain darkening, fishy odor, and reduced grain quality.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant parts.",
+          "Biological": "Apply biocontrol agents like Pseudomonas fluorescens.",
+          "Chemical": "Treat seeds with fungicides such as carboxin and thiram."
+        }
+      }
+    ]
+  },
+  "Maize": {
+    "Pests": [
+      {
+        "Name": "Fall Armyworm",
+        "Scientific Name": "Spodoptera frugiperda",
+        "Symptoms": "Leaf feeding, windowpane damage, and ragged leaf edges.",
+        "Image1": "https://benisonmedia.com/wp-content/uploads/2019/12/nn1.jpg",
+        "Image2": "https://media.licdn.com/dms/image/C5112AQFA7WmfU48ZBA/article-cover_image-shrink_720_1280/0/1569933441671?e=2147483647&v=beta&t=hSdXtn7j9hXr5KbgmkvyMjyjV4uw_Pr2OVFUBZMQP-I",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like ladybird beetles.",
+          "Chemical": "Spray with insecticides such as chlorantraniliprole and lambda-cyhalothrin."
+        }
+      },
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Chilo partellus",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and tunneling in cobs.",
+        "Image1": "https://cipotato.org/riskatlasforafrica/wp-content/uploads/sites/4/2016/12/Photos1-2.png",
+        "Image2": "https://plantwiseplusknowledgebank.org/cms/asset/fe91fa38-bd4b-4c3c-90ec-ea09f8fd3041/spotted-stem-borer-on-maize-global-eng-1.png",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Corn Earworm",
+        "Scientific Name": "Helicoverpa zea",
+        "Symptoms": "Feeding on kernels, silk damage, and mold growth on ears.",
+        "Image1": "https://images1.farms.com/farms-production-images/Portals/0/Corn-earworm-1.jpg",
+        "Image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSco7-Hv7iToQL7uya0KnvDtLRK-K97sNndlQ&s",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, maintain field hygiene, and avoid monocropping.",
+          "Mechanical": "Handpick and destroy larvae.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like ladybird beetles.",
+          "Chemical": "Spray with insecticides such as spinosad and indoxacarb."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Sticky honeydew, curled leaves, and sooty mold growth.",
+        "Image1": "https://apps.lucidcentral.org/pppw_v10/images/entities/maize_aphid_330/eric_burkness.jpg",
+        "Image2": "https://extension.usu.edu/vegetableguide/images/sweet-corn-pests/corn-leaf-aphid2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Cutworms",
+        "Scientific Name": "Agrotis ipsilon",
+        "Symptoms": "Cut seedlings at the base, wilting, and plant death.",
+        "Image1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXmulsPAyNbvOeY76rFdtC59WHNmuL_mTOw&s",
+        "Image2": "https://ag.purdue.edu/department/entm/extension/field-crops-ipm/_media/dingycutwormleaf.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like ground beetles.",
+          "Chemical": "Spray with insecticides such as chlorantraniliprole and lambda-cyhalothrin."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Gray Leaf Spot",
+        "Scientific Name": "Cercospora zeae-maydis",
+        "Symptoms": "Rectangular lesions on leaves, yellow halos, and leaf blight.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as azoxystrobin and propiconazole."
+        }
+      },
+      {
+        "Name": "Common Rust",
+        "Scientific Name": "Puccinia sorghi",
+        "Symptoms": "Reddish-brown pustules on leaves, leaf drying, and reduced photosynthesis.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      },
+      {
+        "Name": "Northern Corn Leaf Blight",
+        "Scientific Name": "Exserohilum turcicum",
+        "Symptoms": "Cigar-shaped lesions on leaves, leaf drying, and reduced grain filling.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as azoxystrobin and propiconazole."
+        }
+      },
+      {
+        "Name": "Southern Corn Leaf Blight",
+        "Scientific Name": "Bipolaris maydis",
+        "Symptoms": "Small, tan lesions on leaves, leaf blight, and reduced grain filling.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as azoxystrobin and propiconazole."
+        }
+      },
+      {
+        "Name": "Maize Dwarf Mosaic Virus",
+        "Scientific Name": "Maize dwarf mosaic virus",
+        "Symptoms": "Mosaic patterns on leaves, stunted growth, and reduced yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, control weed hosts, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plants.",
+          "Biological": "Use virus-free seeds and avoid planting in areas with high vector populations.",
+          "Chemical": "Control aphid vectors with insecticides like imidacloprid and thiamethoxam."
+        }
+      }
+    ]
+  },
+  "Sorghum": {
+    "Pests": [
+      {
+        "Name": "Shoot Fly",
+        "Scientific Name": "Atherigona soccata",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and stunted growth.",
+        "Image1": "https://www.greenlife.co.ke/wp-content/uploads/2022/04/sorghum_shootfly.jpg",
+        "Image2": "http://eagri.org/eagri50/ENTO331/lecture03/sorghum/001_clip_image004.png",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, maintain field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infested plants.",
+          "Biological": "Release parasitoids like Trichogramma spp.",
+          "Chemical": "Apply insecticides such as chlorpyrifos and fipronil."
+        }
+      },
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Chilo partellus",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and tunneling in cobs.",
+        "Image1": "https://agritech.tnau.ac.in/crop_protection/images/sorghum_insects/1.sorghumshootfly_symp3.jpg",
+        "Image2": "https://agritech.tnau.ac.in/crop_protection/images/sorghum_insects/2.sorghumstemborer_adult.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Armyworms",
+        "Scientific Name": "Mythimna separata",
+        "Symptoms": "Defoliation, cut stems, and grain damage.",
+        "Image1": "https://i1.wp.com/entomologytoday.org/wp-content/uploads/2018/11/fall-armyworm-on-sorghum.jpg?fit=1000%2C609",
+        "Image2": "https://www.sorghumcheckoff.com/wp-content/uploads/2021/11/Headworm.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae and pupae.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like ground beetles.",
+          "Chemical": "Spray with insecticides such as chlorantraniliprole and lambda-cyhalothrin."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Melanaphis sacchari",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "https://entomology.ca.uky.edu/files/inline-images/ef157a.png?itok=22PHo_0k",
+        "Image2": "https://lgpress.clemson.edu/wp-content/uploads/sites/3/2019/11/2-fig.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Shoot Bug",
+        "Scientific Name": "Peregrinus maidis",
+        "Symptoms": "Leaf curling, stunted growth, and plant death.",
+        "Image1": "https://ars.els-cdn.com/content/image/3-s2.0-B978012804243400001X-f01-10-9780128042434.jpg",
+        "Image2": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Peregrinus_maidis_from_CSIRO.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Remove and destroy infested plants.",
+          "Biological": "Release parasitoids like Trichogramma spp.",
+          "Chemical": "Apply insecticides such as chlorpyrifos and imidacloprid."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Downy Mildew",
+        "Scientific Name": "Peronosclerospora sorghi",
+        "Symptoms": "White downy growth on leaves, stunted growth, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      },
+      {
+        "Name": "Anthracnose",
+        "Scientific Name": "Colletotrichum sublineola",
+        "Symptoms": "Irregular, water-soaked lesions on leaves, stalks, and panicles, leaf blight, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as azoxystrobin and propiconazole."
+        }
+      },
+      {
+        "Name": "Grain Mold",
+        "Scientific Name": "Fusarium spp.",
+        "Symptoms": "Discolored grains, mold growth on grains, and reduced grain quality.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, avoid late planting, and maintain proper field hygiene.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as carbendazim and mancozeb."
+        }
+      },
+      {
+        "Name": "Ergot",
+        "Scientific Name": "Claviceps sorghi",
+        "Symptoms": "Honeydew secretion on panicles, sclerotia formation, and reduced grain yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected panicles and sclerotia.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as carbendazim and mancozeb."
+        }
+      },
+      {
+        "Name": "Smut",
+        "Scientific Name": "Sporisorium reilianum",
+        "Symptoms": "Black, powdery masses in inflorescences, reduced grain yield, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant parts.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Treat seeds with fungicides such as carboxin and thiram."
+        }
+      }
+    ]
+  },
+  "Barley": {
+    "Pests": [
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Curling and yellowing of leaves, stunted growth, and honeydew secretion.",
+        "Image1": "https://www.agric.wa.gov.au/sites/gateway/files/ceral%20aphid%20head%20damage_0_0.jpg",
+        "Image2": "https://www.agric.wa.gov.au/sites/gateway/files/styles/original/public/corn%20aphid_0.jpg?itok=9Wuim-Qs",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Armyworms",
+        "Scientific Name": "Mythimna unipuncta",
+        "Symptoms": "Defoliation, cut stems, and grain damage.",
+        "Image1": "https://assets.syngenta.ca/images/pest/125/ca2020_armyworm_wheat.png",
+        "Image2": "https://thebeatsheet.com.au/wp-content/uploads/2007/09/armyworm-larva.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae and pupae.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like ground beetles.",
+          "Chemical": "Spray with insecticides such as chlorantraniliprole and lambda-cyhalothrin."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Powdery Mildew",
+        "Scientific Name": "Blumeria graminis",
+        "Symptoms": "White, powdery spots on leaves, stems, and heads.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as sulfur and propiconazole."
+        }
+      },
+      {
+        "Name": "Net Blotch",
+        "Scientific Name": "Pyrenophora teres",
+        "Symptoms": "Brown, net-like lesions on leaves and leaf sheaths.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as azoxystrobin and propiconazole."
+        }
+      },
+      {
+        "Name": "Leaf Rust",
+        "Scientific Name": "Puccinia hordei",
+        "Symptoms": "Orange-brown pustules on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      },
+      {
+        "Name": "Barley Yellow Dwarf Virus",
+        "Scientific Name": "Barley Yellow Dwarf Virus",
+        "Symptoms": "Yellowing and reddening of leaves, stunted growth, and reduced yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, control weed hosts, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plants.",
+          "Biological": "Use virus-free seeds and avoid planting in areas with high vector populations.",
+          "Chemical": "Control aphid vectors with insecticides like imidacloprid and thiamethoxam."
+        }
+      }
+    ]
+  },
+  "Pearl_Millet": {
+    "Pests": [
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Chilo partellus",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and tunneling in cobs.",
+        "Image1": "https://www.researchgate.net/publication/347918885/figure/fig1/AS:11431281104656490@1670180084931/Pearl-millet-stem-infested-and-damage-by-stem-borer-Coniesta-ignefusalis-A-Entry-hole.png",
+        "Image2": "https://www.cabidigitallibrary.org/cms/10.1079/cabicompendium.12859/asset/b10fa860-c77f-4339-a4bd-3bd29266e90b/assets/graphic/chpartel.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "https://nwdistrict.ifas.ufl.edu/phag/files/2015/09/sugarcane-aphid-on-forage-sorghum.jpg",
+        "Image2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFbF9XXoM4C22vtyoYiAPvYxRYY7SBa46mQ&s",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "White Grubs",
+        "Scientific Name": "Holotrichia serrata",
+        "Symptoms": "Root damage, wilting, and plant death.",
+        "Image1": "https://cdn.shopify.com/s/files/1/0920/8638/files/white_grubs_infesting_the_roots_of_bajra_pearl_millet_plants._480x480.webp?v=1719226575",
+        "Image2": "https://i.ytimg.com/vi/mQrd-duJl6I/maxresdefault.jpg",
+        "Management": {
+          "Cultural": "Maintain field hygiene, practice crop rotation, and apply organic matter to improve soil health.",
+          "Mechanical": "Handpick and destroy grubs.",
+          "Biological": "Release entomopathogenic nematodes and use biopesticides like Beauveria bassiana.",
+          "Chemical": "Apply soil insecticides such as chlorpyrifos and imidacloprid."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Downy Mildew",
+        "Scientific Name": "Sclerospora graminicola",
+        "Symptoms": "White downy growth on leaves, stunted growth, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      },
+      {
+        "Name": "Rust",
+        "Scientific Name": "Puccinia substriata",
+        "Symptoms": "Orange-brown pustules on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      },
+      {
+        "Name": "Ergot",
+        "Scientific Name": "Claviceps fusiformis",
+        "Symptoms": "Honeydew secretion on panicles, sclerotia formation, and reduced grain yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected panicles and sclerotia.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as carbendazim and mancozeb."
+        }
+      },
+      {
+        "Name": "Smut",
+        "Symptoms": "Black, powdery masses in inflorescences, reduced grain yield, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant parts.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Treat seeds with fungicides such as carboxin and thiram."
+        }
+      }
+    ]
+  },
+  "Finger_Millet": {
+    "Pests": [
+      {
+        "Name": "Shoot Fly",
+        "Scientific Name": "Atherigona spp.",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and stunted growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, maintain field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infested plants.",
+          "Biological": "Release parasitoids like Trichogramma spp.",
+          "Chemical": "Apply insecticides such as chlorpyrifos and fipronil."
+        }
+      },
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Sesamia inferens",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and tunneling in cobs.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Blast",
+        "Scientific Name": "Pyricularia grisea",
+        "Symptoms": "Spindle-shaped lesions on leaves, neck rot, and reduced grain yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, avoid excessive nitrogen application, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tricyclazole and carbendazim."
+        }
+      },
+      {
+        "Name": "Downy Mildew",
+        "Scientific Name": "Sclerospora graminicola",
+        "Symptoms": "White downy growth on leaves, stunted growth, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      },
+      {
+        "Name": "Rust",
+        "Scientific Name": "Puccinia substriata var. indica",
+        "Symptoms": "Orange-brown pustules on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      }
+    ]
+  },
+  "Proso_Millet": {
+    "Pests": [
+      {
+        "Name": "Grasshoppers",
+        "Scientific Name": "Acrididae spp.",
+        "Symptoms": "Defoliation, chewing of leaves, and stunted growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Maintain field hygiene, practice crop rotation, and avoid excessive nitrogen application.",
+          "Mechanical": "Handpick and destroy grasshoppers.",
+          "Biological": "Release natural enemies like birds and parasitic wasps.",
+          "Chemical": "Apply insecticides such as carbaryl and malathion."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Cutworms",
+        "Scientific Name": "Agrotis ipsilon",
+        "Symptoms": "Cutting of seedlings at ground level, wilting, and plant death.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Maintain field hygiene, practice crop rotation, and avoid excessive irrigation.",
+          "Mechanical": "Handpick and destroy larvae.",
+          "Biological": "Release entomopathogenic nematodes and use biopesticides like Bacillus thuringiensis.",
+          "Chemical": "Apply insecticides such as chlorpyrifos and lambda-cyhalothrin."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Leaf Spot",
+        "Scientific Name": "Bipolaris spp.",
+        "Symptoms": "Brown to black spots on leaves, reduced photosynthesis, and stunted growth.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as mancozeb and carbendazim."
+        }
+      },
+      {
+        "Name": "Downy Mildew",
+        "Scientific Name": "Sclerospora graminicola",
+        "Symptoms": "White downy growth on leaves, stunted growth, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      },
+      {
+        "Name": "Rust",
+        "Scientific Name": "Puccinia substriata",
+        "Symptoms": "Orange-brown pustules on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      }
+    ]
+  },
+  "Foxtail_Millet": {
+    "Pests": [
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Sesamia inferens",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and tunneling in cobs.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Grasshoppers",
+        "Scientific Name": "Acrididae spp.",
+        "Symptoms": "Defoliation, chewing of leaves, and stunted growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Maintain field hygiene, practice crop rotation, and avoid excessive nitrogen application.",
+          "Mechanical": "Handpick and destroy grasshoppers.",
+          "Biological": "Release natural enemies like birds and parasitic wasps.",
+          "Chemical": "Apply insecticides such as carbaryl and malathion."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Leaf Spot",
+        "Scientific Name": "Bipolaris spp.",
+        "Symptoms": "Brown to black spots on leaves, reduced photosynthesis, and stunted growth.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as mancozeb and carbendazim."
+        }
+      },
+      {
+        "Name": "Downy Mildew",
+        "Scientific Name": "Sclerospora graminicola",
+        "Symptoms": "White downy growth on leaves, stunted growth, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      },
+      {
+        "Name": "Rust",
+        "Scientific Name": "Puccinia substriata",
+        "Symptoms": "Orange-brown pustules on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      }
+    ]
+  },
+  "Barnyard_Millet": {
+    "Pests": [
+      {
+        "Name": "Stem Borer",
+        "Scientific Name": "Sesamia inferens",
+        "Symptoms": "Deadhearts in young plants, boreholes in stems, and tunneling in cobs.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Use light traps and pheromone traps to monitor and control adult moths.",
+          "Biological": "Release egg parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as fipronil and cartap hydrochloride."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Rhopalosiphum maidis",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Grasshoppers",
+        "Scientific Name": "Acrididae spp.",
+        "Symptoms": "Defoliation, chewing of leaves, and stunted growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Maintain field hygiene, practice crop rotation, and avoid excessive nitrogen application.",
+          "Mechanical": "Handpick and destroy grasshoppers.",
+          "Biological": "Release natural enemies like birds and parasitic wasps.",
+          "Chemical": "Apply insecticides such as carbaryl and malathion."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Leaf Spot",
+        "Scientific Name": "Bipolaris spp.",
+        "Symptoms": "Brown to black spots on leaves, reduced photosynthesis, and stunted growth.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as mancozeb and carbendazim."
+        }
+      },
+      {
+        "Name": "Downy Mildew",
+        "Scientific Name": "Sclerospora graminicola",
+        "Symptoms": "White downy growth on leaves, stunted growth, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      },
+      {
+        "Name": "Rust",
+        "Scientific Name": "Puccinia substriata",
+        "Symptoms": "Orange-brown pustules on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as tebuconazole and propiconazole."
+        }
+      }
+    ]
+  },
+  "PigeonPea": {
+    "Pests": [
+      {
+        "Name": "Pod Borer",
+        "Scientific Name": "Helicoverpa armigera",
+        "Symptoms": "Holes in pods, feeding on seeds, and webbing of pods.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae and infested pods.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like spiders.",
+          "Chemical": "Apply insecticides such as spinosad and chlorantraniliprole."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Aphis craccivora",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Stem Fly",
+        "Scientific Name": "Ophiomyia phaseoli",
+        "Symptoms": "Boreholes in stems, wilting, and plant death.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and remove stubble after harvest.",
+          "Mechanical": "Remove and destroy infested plants.",
+          "Biological": "Release parasitoids like Trichogramma spp. and use entomopathogenic nematodes.",
+          "Chemical": "Apply insecticides such as chlorpyrifos and fipronil."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Fusarium Wilt",
+        "Scientific Name": "Fusarium udum",
+        "Symptoms": "Yellowing of leaves, wilting, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant residues.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Treat seeds with fungicides such as carboxin and thiram."
+        }
+      },
+      {
+        "Name": "Sterility Mosaic Virus",
+        "Scientific Name": "Pigeon pea sterility mosaic virus",
+        "Symptoms": "Stunted growth, leaf mosaic, and sterility of flowers.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plants.",
+          "Biological": "Control vector mites with neem oil or other organic sprays.",
+          "Chemical": "Apply miticides such as abamectin and spiromesifen."
+        }
+      },
+      {
+        "Name": "Phytophthora Blight",
+        "Scientific Name": "Phytophthora drechsleri",
+        "Symptoms": "Water-soaked lesions on stems, leaf wilting, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, avoid excessive irrigation, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as metalaxyl and fosetyl-Al."
+        }
+      }
+    ]
+  },
+  "Greengram": {
+    "Pests": [
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Aphis craccivora",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor and control aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles and lacewings.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Thrips",
+        "Scientific Name": "Caliothrips indicus",
+        "Symptoms": "Silvery streaks on leaves, leaf curling, and stunted growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and avoid excessive irrigation.",
+          "Mechanical": "Use blue sticky traps to monitor and control thrips populations.",
+          "Biological": "Release natural enemies like predatory mites and minute pirate bugs.",
+          "Chemical": "Apply insecticides such as spinosad and emamectin benzoate."
+        }
+      },
+      {
+        "Name": "Pod Borer",
+        "Scientific Name": "Helicoverpa armigera",
+        "Symptoms": "Holes in pods, feeding on seeds, and webbing of pods.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties, practice crop rotation, and maintain field hygiene.",
+          "Mechanical": "Handpick and destroy larvae and infested pods.",
+          "Biological": "Release parasitoids like Trichogramma spp. and predators like spiders.",
+          "Chemical": "Apply insecticides such as spinosad and chlorantraniliprole."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Powdery Mildew",
+        "Scientific Name": "Erysiphe polygoni",
+        "Symptoms": "White, powdery spots on leaves, stems, and pods.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper plant spacing, and avoid excessive irrigation.",
+          "Mechanical": "Remove and destroy infected plant debris.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Spray with fungicides such as sulfur and propiconazole."
+        }
+      },
+      {
+        "Name": "Yellow Mosaic Virus",
+        "Scientific Name": "Mungbean yellow mosaic virus",
+        "Symptoms": "Yellow patches on leaves, stunted growth, and reduced yield.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plants.",
+          "Biological": "Control whitefly vectors with neem oil or other organic sprays.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Root Rot",
+        "Scientific Name": "Rhizoctonia solani",
+        "Symptoms": "Yellowing of leaves, wilting, and root decay.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain proper field hygiene, and practice crop rotation.",
+          "Mechanical": "Remove and destroy infected plant residues.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Treat seeds with fungicides such as carboxin and thiram."
+        }
+      }
+    ]
+  },
+  "Bengalgram": {
+    "Pests": [
+      {
+        "Name": "Pod Borer",
+        "Scientific Name": "Helicoverpa armigera",
+        "Symptoms": "Feeding holes on pods, Presence of larvae on the crop, Reduced pod formation and damaged seeds.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Sow early to avoid peak infestation, Intercrop with crops like coriander to reduce pest population.",
+          "Mechanical": "Handpick and destroy larvae and infested pods, Use pheromone traps to monitor and capture adult moths.",
+          "Biological": "Release parasitoids like Trichogramma spp, Encourage natural predators such as ladybird beetles and spiders.",
+          "Chemical": "Apply insecticides such as spinosad and chlorantraniliprole."
+        }
+      },
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Aphis craccivora",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene, and avoid excessive nitrogen application.",
+          "Mechanical": "Use yellow sticky traps to monitor aphid populations.",
+          "Biological": "Release natural enemies like ladybird beetles.",
+          "Chemical": "Apply insecticides such as imidacloprid and thiamethoxam."
+        }
+      },
+      {
+        "Name": "Cutworm",
+        "Scientific Name": "Agrotis ipsilon",
+        "Symptoms": "Cutting of young plants at the base near ground level, Wilted and dead seedlings.",
+        "Management": {
+          "Cultural": "Keep fields free from weeds and plant debris, Practice deep plowing to expose larvae.",
+          "Mechanical": "Use light traps to attract and kill adult moths, Handpick larvae in the evening when they are active.",
+          "Biological": "Apply biocontrol agents like Bacillus thuringiensis, Encourage natural predators like birds and predatory beetles.",
+          "Chemical": "Apply insecticides such as chlorpyrifos or lambda-cyhalothrin."
+          
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Fusarium Wilt",
+        "Scientific Name": "Fusarium oxysporum f. sp. ciceris",
+        "Symptoms": "Yellowing of leaves, wilting, and plant death.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene.",
+          "Mechanical": "Remove infected plant residues.",
+          "Biological": "Apply biocontrol agents like Trichoderma spp.",
+          "Chemical": "Treat seeds with fungicides such as carboxin."
+        }
+      },
+      {
+        "Name": "Powdery Mildew",
+        "Symptoms": "White, powdery spots on leaves and stems.",
+        "Management": {
+          "Cultural": "Plant resistant varieties, avoid excessive irrigation.",
+          "Mechanical": "Remove infected plant debris.",
+          "Biological": "Use biocontrol agents.",
+          "Chemical": "Spray with fungicides like sulfur."
+        }
+      },
+      {
+        "Name": "Root Rot",
+        "Scientific Name": "Rhizoctonia bataticola",
+        "Symptoms": "Yellowing of leaves, wilting, and root decay.",
+        "Management": {
+          "Cultural": "Plant resistant varieties and practice crop rotation.",
+          "Mechanical": "Remove infected plant residues.",
+          "Biological": "Apply biocontrol agents.",
+          "Chemical": "Treat seeds with fungicides."
+        }
+      }
+    ]
+  },
+  "Horsegram": {
+    "Pests": [
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Aphis craccivora",
+        "Symptoms": "Curled leaves, honeydew secretion, and sooty mold growth.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties, maintain field hygiene.",
+          "Mechanical": "Use yellow sticky traps.",
+          "Biological": "Release natural enemies.",
+          "Chemical": "Apply insecticides like imidacloprid."
+        }
+      },
+      {
+        "Name": "Pod Borer",
+        "Scientific Name": "Helicoverpa armigera",
+        "Symptoms": "Holes in pods, feeding on seeds.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant early-maturing varieties.",
+          "Mechanical": "Handpick infested pods.",
+          "Biological": "Release parasitoids.",
+          "Chemical": "Use insecticides."
+        }
+      },
+      {
+        "Name": "Stem Fly",
+        "Symptoms": "Boreholes in stems and wilting.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Practice crop rotation.",
+          "Mechanical": "Remove infested plants.",
+          "Biological": "Release parasitoids.",
+          "Chemical": "Apply insecticides."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Fusarium Wilt",
+        "Symptoms": "Yellowing and wilting of plants.",
+        "Management": {
+          "Cultural": "Plant resistant varieties.",
+          "Mechanical": "Remove infected plants.",
+          "Biological": "Use biocontrol agents.",
+          "Chemical": "Treat seeds with fungicides."
+        }
+      },
+      {
+        "Name": "Powdery Mildew",
+        "Scientific Name": "Erysiphe polygoni",
+        "Symptoms": "White powdery growth on leaves.",
+        "Management": {
+          "Cultural": "Maintain field hygiene.",
+          "Mechanical": "Remove infected debris.",
+          "Biological": "Apply biocontrol agents.",
+          "Chemical": "Use fungicides."
+        }
+      },
+      {
+        "Name": "Root Rot",
+        "Scientific Name": "Rhizoctonia solani",
+        "Symptoms": "Wilting and root decay.",
+        "Management": {
+          "Cultural": "Use resistant varieties.",
+          "Mechanical": "Destroy infected residues.",
+          "Biological": "Use biocontrol agents.",
+          "Chemical": "Treat seeds."
+        }
+      }
+    ]
+  },
+  "Cowpea": {
+    "Pests": [
+      {
+        "Name": "Aphids",
+        "Scientific Name": "Aphis craccivora",
+        "Symptoms": "Curled leaves, honeydew secretion.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Plant resistant varieties.",
+          "Mechanical": "Use sticky traps.",
+          "Biological": "Introduce natural predators.",
+          "Chemical": "Apply insecticides like imidacloprid."
+        }
+      },
+      {
+        "Name": "Pod Borer",
+        "Scientific Name": "Maruca vitrata",
+        "Symptoms": "Holes in pods and seed feeding.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Crop rotation and resistant varieties.",
+          "Mechanical": "Handpick infested pods.",
+          "Biological": "Release parasitoids.",
+          "Chemical": "Use appropriate insecticides."
+        }
+      },
+      {
+        "Name": "Thrips",
+        "Scientific Name": "Caliothrips indicus",
+        "Symptoms": "Silvery streaks on leaves.",
+        "Image1": "../static/pics/rice/riceborer1.jpeg",
+        "Image2": "../static/pics/rice/riceborer2.jpg",
+        "Management": {
+          "Cultural": "Maintain field hygiene.",
+          "Mechanical": "Use blue sticky traps.",
+          "Biological": "Introduce natural predators.",
+          "Chemical": "Apply insecticides."
+        }
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Powdery Mildew",
+        "Scientific Name": "Erysiphe polygoni",
+        "Symptoms": "White powdery spots on leaves.",
+        "Management": {
+          "Cultural": "Plant resistant varieties.",
+          "Mechanical": "Remove infected debris.",
+          "Biological": "Use biocontrol agents.",
+          "Chemical": "Spray with fungicides."
+        }
+      },
+      {
+        "Name": "Root Rot",
+        "Symptoms": "Wilting and root decay.",
+        "Management": {
+          "Cultural": "Use resistant varieties.",
+          "Mechanical": "Destroy infected residues.",
+          "Biological": "Use biocontrol agents.",
+          "Chemical": "Treat seeds with fungicides."
+        }
+      },
+      {
+        "Name": "Bacterial Blight",
+        "Scientific Name": "Xanthomonas axonopodis pv. vignicola",
+        "Symptoms": "Water-soaked lesions on leaves.",
+        "Management": {
+          "Cultural": "Crop rotation and resistant varieties.",
+          "Mechanical": "Remove infected plants.",
+          "Biological": "Apply biocontrol agents.",
+          "Chemical": "Use bactericides."
+        }
+      }
+    ]
+  }
+}

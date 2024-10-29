@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    color: green;
+    overflow-y: hidden;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    font-size: xxx-large;
+    text-align: center;
+}
+.image{
+    width: 40vw;
+}
+.bold{
+    color: orangered;
+}
+
+@media only screen and (max-width: 800px) {
+    .image{
+        width: 300px;
+    }
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .image{
+        visibility: hidden;
+    }
+    .welcome{
+        position: absolute;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+    }
+}
+ 

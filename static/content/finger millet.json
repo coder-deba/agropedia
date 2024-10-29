@@ -1,0 +1,62 @@
+{
+    "Finger Millet": {
+      "Crop Overview": {
+        "Common_Name": "Finger Millet",
+        "Botanical_Name": "Eleusine coracana",
+        "Family": "Poaceae",
+        "Origin": "East Africa",
+        "Varieties": ["VL 149", "PRM 1", "GPU 28"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained loamy or sandy loam soils",
+        "pH_Levels": "5.0 - 7.0",
+        "Nutrient Requirements": {
+          "Nitrogen": "40-60 kg/ha",
+          "Phosphorus": "20-30 kg/ha",
+          "Potassium": "20-30 kg/ha",
+          "Calcium": "20-30 kg/ha",
+      "Iron": "5-10 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "25°C - 30°C",
+        "Rainfall": "500 - 1000 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Stem Borer",
+          "Symptoms": "Bored stems, deadhearts",
+          "Management": "Resistant varieties, biological control"
+        },
+        {
+          "Name": "Grasshoppers",
+          "Symptoms": "Chewed leaves and stems",
+          "Management": "Insecticides, biological control"
+        },
+        {
+          "Name": "Aphids",
+          "Symptoms": "Sticky honeydew, yellowing leaves",
+          "Management": "Natural predators, insecticidal soaps"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Blast",
+          "Symptoms": "Spindle-shaped lesions on leaves and stems",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Downy Mildew",
+          "Symptoms": "White to yellowish patches on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Rust",
+          "Symptoms": "Reddish-brown pustules on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        }
+      ]
+    }
+  }
+  

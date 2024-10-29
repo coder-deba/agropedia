@@ -1,0 +1,62 @@
+{
+    "Proso Millet": {
+      "Crop Overview": {
+        "Common_Name": "Proso Millet",
+        "Botanical_Name": "Panicum miliaceum",
+        "Family": "Poaceae",
+        "Origin": "Central Asia",
+        "Varieties": ["Dawn", "Huntsman", "Minsum"]
+      },
+      "Soil Requirements": {
+        "Soil_Type": "Well-drained sandy loam or loam soils",
+        "pH_Levels": "5.5 - 7.0",
+        "Nutrient Requirements": {
+          "Nitrogen": "30-50 kg/ha",
+          "Phosphorus": "20-40 kg/ha",
+          "Potassium": "20-30 kg/ha",
+          "Calcium": "20-30 kg/ha",
+      "Zinc": "5-10 kg/ha"
+        }
+      },
+      "Climate Requirements": {
+        "Temperature": "20°C - 30°C",
+        "Rainfall": "250 - 600 mm annually",
+        "Sunlight": "Requires full sunlight"
+      },
+      "Pests": [
+        {
+          "Name": "Armyworms",
+          "Symptoms": "Chewed leaves and stems",
+          "Management": "Biological control, insecticides"
+        },
+        {
+          "Name": "Cutworms",
+          "Symptoms": "Cut seedlings at the soil surface",
+          "Management": "Insecticides, crop rotation"
+        },
+        {
+          "Name": "Aphids",
+          "Symptoms": "Sticky honeydew, stunted growth",
+          "Management": "Natural predators, insecticidal soaps"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Symptoms": "Yellowish patches on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Rust",
+          "Symptoms": "Reddish-brown pustules on leaves",
+          "Management": "Resistant varieties, fungicide application"
+        },
+        {
+          "Name": "Smut",
+          "Symptoms": "Black spore masses in place of grains",
+          "Management": "Crop rotation, seed treatment"
+        }
+      ]
+    }
+  }
+  

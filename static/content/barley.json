@@ -1,0 +1,65 @@
+{
+  "Barley": {
+    "Crop Overview": {
+      "Common_Name": "Barley",
+      "Botanical_Name": "Hordeum vulgare",
+      "Family": "Poaceae",
+      "Origin": "Fertile Crescent",
+      "Varieties": [
+        "Six-row barley",
+        "Two-row barley",
+        "Hull-less barley"
+      ]
+    },
+    "Soil Requirements": {
+      "Soil_Type": "Well-drained loamy or sandy soils",
+      "pH_Levels": "6.0 - 7.5",
+      "Nutrient Requirements": {
+        "Nitrogen": "60-90 kg/ha",
+        "Phosphorus": "40-50 kg/ha",
+        "Potassium": "30-40 kg/ha",
+        "Calcium": "20-30 kg/ha",
+        "Manganese": "5-10 kg/ha"
+      }
+    },
+    "Climate Requirements": {
+      "Temperature": "12°C - 24°C",
+      "Rainfall": "500 - 1000 mm annually",
+      "Sunlight": "Requires full sunlight"
+    },
+    "Pests": [
+      {
+        "Name": "Aphids",
+        "Symptoms": "Sticky honeydew, yellowing leaves",
+        "Management": "Natural predators, insecticidal soaps"
+      },
+      {
+        "Name": "Barley Yellow Dwarf Virus",
+        "Symptoms": "Stunted growth, yellowing leaves",
+        "Management": "Resistant varieties, vector control"
+      },
+      {
+        "Name": "Armyworms",
+        "Symptoms": "Chewed leaves and stems",
+        "Management": "Biological control, insecticides"
+      }
+    ],
+    "Diseases": [
+      {
+        "Name": "Powdery Mildew",
+        "Symptoms": "White powdery spots on leaves",
+        "Management": "Resistant varieties, fungicide application"
+      },
+      {
+        "Name": "Leaf Rust",
+        "Symptoms": "Small reddish-brown pustules on leaves",
+        "Management": "Resistant varieties, fungicide application"
+      },
+      {
+        "Name": "Net Blotch",
+        "Symptoms": "Dark brown net-like patterns on leaves",
+        "Management": "Crop rotation, fungicide application"
+      }
+    ]
+  }
+}

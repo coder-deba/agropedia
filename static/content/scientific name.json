@@ -1,0 +1,739 @@
+{
+    "Rice": {
+      "Pests": [
+        {
+          "Name": "Brown Planthopper",
+          "Scientific Name": "Nilaparvata lugens"
+        },
+        {
+          "Name": "Rice Stem Borer",
+          "Scientific Name": "Scirpophaga incertulas"
+        },
+        {
+          "Name": "Rice Leaf Folder",
+          "Scientific Name": "Cnaphalocrocis medinalis"
+        },
+        {
+          "Name": "Rice Hispa",
+          "Scientific Name": "Dicladispa armigera"
+        },
+        {
+          "Name": "Rice Gall Midge",
+          "Scientific Name": "Orseolia oryzae"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Rice Blast",
+          "Scientific Name": "Magnaporthe oryzae"
+        },
+        {
+          "Name": "Bacterial Leaf Blight",
+          "Scientific Name": "Xanthomonas oryzae pv. oryzae"
+        },
+        {
+          "Name": "Sheath Blight",
+          "Scientific Name": "Rhizoctonia solani"
+        },
+        {
+          "Name": "Brown Spot",
+          "Scientific Name": "Bipolaris oryzae"
+        },
+        {
+          "Name": "Rice Tungro Disease",
+          "Scientific Name": "Rice tungro bacilliform virus"
+        }
+      ]
+    },
+    "Wheat": {
+      "Pests": [
+        {
+          "Name": "Wheat Stem Sawfly",
+          "Scientific Name": "Cephus cinctus"
+        },
+        {
+          "Name": "Wheat Aphid",
+          "Scientific Name": "Schizaphis graminum"
+        },
+        {
+          "Name": "Wheat Midge",
+          "Scientific Name": "Sitodiplosis mosellana"
+        },
+        {
+          "Name": "Hessian Fly",
+          "Scientific Name": "Mayetiola destructor"
+        },
+        {
+          "Name": "Armyworm",
+          "Scientific Name": "Mythimna unipuncta"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Wheat Rust",
+          "Scientific Name": "Puccinia spp."
+        },
+        {
+          "Name": "Powdery Mildew",
+          "Scientific Name": "Blumeria graminis"
+        },
+        {
+          "Name": "Fusarium Head Blight",
+          "Scientific Name": "Fusarium graminearum"
+        },
+        {
+          "Name": "Septoria Leaf Blotch",
+          "Scientific Name": "Zymoseptoria tritici"
+        },
+        {
+          "Name": "Take-all",
+          "Scientific Name": "Gaeumannomyces graminis"
+        }
+      ]
+    },
+    "Maize": {
+      "Pests": [
+        {
+          "Name": "Fall Armyworm",
+          "Scientific Name": "Spodoptera frugiperda"
+        },
+        {
+          "Name": "Maize Stem Borer",
+          "Scientific Name": "Chilo partellus"
+        },
+        {
+          "Name": "Corn Earworm",
+          "Scientific Name": "Helicoverpa zea"
+        },
+        {
+          "Name": "Cutworm",
+          "Scientific Name": "Agrotis ipsilon"
+        },
+        {
+          "Name": "Maize Weevil",
+          "Scientific Name": "Sitophilus zeamais"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Maize Streak Virus",
+          "Scientific Name": "Maize streak virus"
+        },
+        {
+          "Name": "Gray Leaf Spot",
+          "Scientific Name": "Cercospora zeae-maydis"
+        },
+        {
+          "Name": "Northern Corn Leaf Blight",
+          "Scientific Name": "Exserohilum turcicum"
+        },
+        {
+          "Name": "Common Rust",
+          "Scientific Name": "Puccinia sorghi"
+        },
+        {
+          "Name": "Southern Corn Leaf Blight",
+          "Scientific Name": "Bipolaris maydis"
+        }
+      ]
+    },
+    "Sorghum": {
+      "Pests": [
+        {
+          "Name": "Sorghum Shoot Fly",
+          "Scientific Name": "Atherigona soccata"
+        },
+        {
+          "Name": "Sorghum Midge",
+          "Scientific Name": "Stenodiplosis sorghicola"
+        },
+        {
+          "Name": "Sorghum Stem Borer",
+          "Scientific Name": "Chilo partellus"
+        },
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Melanaphis sacchari"
+        },
+        {
+          "Name": "Armyworm",
+          "Scientific Name": "Mythimna separata"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Anthracnose",
+          "Scientific Name": "Colletotrichum sublineola"
+        },
+        {
+          "Name": "Downy Mildew",
+          "Scientific Name": "Peronosclerospora sorghi"
+        },
+        {
+          "Name": "Grain Mold",
+          "Scientific Name": "Fusarium spp."
+        },
+        {
+          "Name": "Smut",
+          "Scientific Name": "Sporisorium reilianum"
+        },
+        {
+          "Name": "Sorghum Rust",
+          "Scientific Name": "Puccinia purpurea"
+        }
+      ]
+    },
+    "Barley": {
+      "Pests": [
+        {
+          "Name": "Russian Wheat Aphid",
+          "Scientific Name": "Diuraphis noxia"
+        },
+        {
+          "Name": "Bird Cherry-Oat Aphid",
+          "Scientific Name": "Rhopalosiphum padi"
+        },
+        {
+          "Name": "Barley Yellow Dwarf Virus Aphid",
+          "Scientific Name": "Rhopalosiphum maidis"
+        },
+        {
+          "Name": "Wireworm",
+          "Scientific Name": "Agriotes spp."
+        },
+        {
+          "Name": "Armyworm",
+          "Scientific Name": "Mythimna unipuncta"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Powdery Mildew",
+          "Scientific Name": "Blumeria graminis"
+        },
+        {
+          "Name": "Leaf Rust",
+          "Scientific Name": "Puccinia hordei"
+        },
+        {
+          "Name": "Net Blotch",
+          "Scientific Name": "Pyrenophora teres"
+        },
+        {
+          "Name": "Barley Yellow Dwarf",
+          "Scientific Name": "Barley yellow dwarf virus"
+        },
+        {
+          "Name": "Scald",
+          "Scientific Name": "Rhynchosporium secalis"
+        }
+      ]
+    },
+    "Pearl Millet": {
+      "Pests": [
+        {
+          "Name": "Stem Borer",
+          "Scientific Name": "Chilo partellus"
+        },
+        {
+          "Name": "Shoot Fly",
+          "Scientific Name": "Atherigona approximata"
+        },
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Rhopalosiphum maidis"
+        },
+        {
+          "Name": "Termites",
+          "Scientific Name": "Odontotermes spp."
+        },
+        {
+          "Name": "Head Miner",
+          "Scientific Name": "Heliocheilus albipunctella"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Scientific Name": "Sclerospora graminicola"
+        },
+        {
+          "Name": "Ergot",
+          "Scientific Name": "Claviceps fusiformis"
+        },
+        {
+          "Name": "Blast",
+          "Scientific Name": "Pyricularia grisea"
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Puccinia substriata"
+        },
+        {
+          "Name": "Leaf Spot",
+          "Scientific Name": "Helminthosporium spp."
+        }
+      ]
+    },
+    "Finger Millet": {
+      "Pests": [
+        {
+          "Name": "Stem Borer",
+          "Scientific Name": "Sesamia inferens"
+        },
+        {
+          "Name": "Shoot Fly",
+          "Scientific Name": "Atherigona spp."
+        },
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Rhopalosiphum maidis"
+        },
+        {
+          "Name": "Termites",
+          "Scientific Name": "Odontotermes spp."
+        },
+        {
+          "Name": "Gall Midge",
+          "Scientific Name": "Orseolia oryzae"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Blast",
+          "Scientific Name": "Pyricularia grisea"
+        },
+        {
+          "Name": "Downy Mildew",
+          "Scientific Name": "Sclerospora graminicola"
+        },
+        {
+          "Name": "Brown Leaf Spot",
+          "Scientific Name": "Helminthosporium nodulosum"
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Puccinia substriata var. indica"
+        },
+        {
+          "Name": "Leaf Blight",
+          "Scientific Name": "Alternaria spp."
+        }
+      ]
+    },
+    "Proso Millet": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Rhopalosiphum maidis"
+        },
+        {
+          "Name": "Armyworm",
+          "Scientific Name": "Mythimna separata"
+        },
+        {
+          "Name": "Cutworm",
+          "Scientific Name": "Agrotis ipsilon"
+        },
+        {
+          "Name": "Stem Borer",
+          "Scientific Name": "Sesamia inferens"
+        },
+        {
+          "Name": "Grasshoppers",
+          "Scientific Name": "Acrididae spp."
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Scientific Name": "Sclerospora graminicola"
+        },
+        {
+          "Name": "Leaf Spot",
+          "Scientific Name": "Bipolaris spp."
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Puccinia substriata"
+        },
+        {
+          "Name": "Smut",
+          "Scientific Name": "Ustilago spp."
+        },
+        {
+          "Name": "Blast",
+          "Scientific Name": "Pyricularia grisea"
+        }
+      ]
+    },
+    "Foxtail Millet": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Rhopalosiphum maidis"
+        },
+        {
+          "Name": "Stem Borer",
+          "Scientific Name": "Sesamia inferens"
+        },
+        {
+          "Name": "Armyworm",
+          "Scientific Name": "Mythimna separata"
+        },
+        {
+          "Name": "Cutworm",
+          "Scientific Name": "Agrotis ipsilon"
+        },
+        {
+          "Name": "Grasshoppers",
+          "Scientific Name": "Acrididae spp."
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Scientific Name": "Sclerospora graminicola"
+        },
+        {
+          "Name": "Leaf Spot",
+          "Scientific Name": "Bipolaris spp."
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Puccinia substriata"
+        },
+        {
+          "Name": "Smut",
+          "Scientific Name": "Ustilago spp."
+        },
+        {
+          "Name": "Blast",
+          "Scientific Name": "Pyricularia grisea"
+        }
+      ]
+    },
+    "Barnyard Millet": {
+      "Pests": [
+        {
+          "Name": "Stem Borer",
+          "Scientific Name": "Sesamia inferens"
+        },
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Rhopalosiphum maidis"
+        },
+        {
+          "Name": "Armyworm",
+          "Scientific Name": "Mythimna separata"
+        },
+        {
+          "Name": "Cutworm",
+          "Scientific Name": "Agrotis ipsilon"
+        },
+        {
+          "Name": "Grasshoppers",
+          "Scientific Name": "Acrididae spp."
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Downy Mildew",
+          "Scientific Name": "Sclerospora graminicola"
+        },
+        {
+          "Name": "Leaf Spot",
+          "Scientific Name": "Bipolaris spp."
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Puccinia substriata"
+        },
+        {
+          "Name": "Smut",
+          "Scientific Name": "Ustilago spp."
+        },
+        {
+          "Name": "Blast",
+          "Scientific Name": "Pyricularia grisea"
+        }
+      ]
+    },
+    "Pigeon Pea": {
+      "Pests": [
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Helicoverpa armigera"
+        },
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora"
+        },
+        {
+          "Name": "Leaf Webber",
+          "Scientific Name": "Grapholita critica"
+        },
+        {
+          "Name": "Stem Fly",
+          "Scientific Name": "Ophiomyia phaseoli"
+        },
+        {
+          "Name": "Blister Beetle",
+          "Scientific Name": "Mylabris spp."
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Wilt",
+          "Scientific Name": "Fusarium udum"
+        },
+        {
+          "Name": "Sterility Mosaic",
+          "Scientific Name": "Pigeon pea sterility mosaic virus"
+        },
+        {
+          "Name": "Phytophthora Blight",
+          "Scientific Name": "Phytophthora drechsleri"
+        },
+        {
+          "Name": "Leaf Spot",
+          "Scientific Name": "Cercospora spp."
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Uromyces cajan"
+        }
+      ]
+    },
+    "Green Gram": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora"
+        },
+        {
+          "Name": "Thrips",
+          "Scientific Name": "Caliothrips indicus"
+        },
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Helicoverpa armigera"
+        },
+        {
+          "Name": "Whitefly",
+          "Scientific Name": "Bemisia tabaci"
+        },
+        {
+          "Name": "Stem Fly",
+          "Scientific Name": "Melanagromyza obtusa"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Powdery Mildew",
+          "Scientific Name": "Erysiphe polygoni"
+        },
+        {
+          "Name": "Mungbean Yellow Mosaic Virus",
+          "Scientific Name": "Mungbean yellow mosaic virus"
+        },
+        {
+          "Name": "Cercospora Leaf Spot",
+          "Scientific Name": "Cercospora canescens"
+        },
+        {
+          "Name": "Anthracnose",
+          "Scientific Name": "Colletotrichum spp."
+        },
+        {
+          "Name": "Root Rot",
+          "Scientific Name": "Rhizoctonia solani"
+        }
+      ]
+    },
+    "Black Gram": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora"
+        },
+        {
+          "Name": "Thrips",
+          "Scientific Name": "Caliothrips indicus"
+        },
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Helicoverpa armigera"
+        },
+        {
+          "Name": "Whitefly",
+          "Scientific Name": "Bemisia tabaci"
+        },
+        {
+          "Name": "Stem Fly",
+          "Scientific Name": "Melanagromyza obtusa"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Powdery Mildew",
+          "Scientific Name": "Erysiphe polygoni"
+        },
+        {
+          "Name": "Yellow Mosaic Virus",
+          "Scientific Name": "Mungbean yellow mosaic virus"
+        },
+        {
+          "Name": "Cercospora Leaf Spot",
+          "Scientific Name": "Cercospora canescens"
+        },
+        {
+          "Name": "Anthracnose",
+          "Scientific Name": "Colletotrichum spp."
+        },
+        {
+          "Name": "Root Rot",
+          "Scientific Name": "Rhizoctonia solani"
+        }
+      ]
+    },
+    "Bengal Gram": {
+      "Pests": [
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Helicoverpa armigera"
+        },
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora"
+        },
+        {
+          "Name": "Thrips",
+          "Scientific Name": "Caliothrips indicus"
+        },
+        {
+          "Name": "Cutworm",
+          "Scientific Name": "Agrotis ipsilon"
+        },
+        {
+          "Name": "Leaf Miner",
+          "Scientific Name": "Liriomyza cicerina"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Fusarium Wilt",
+          "Scientific Name": "Fusarium oxysporum f. sp. ciceris"
+        },
+        {
+          "Name": "Ascochyta Blight",
+          "Scientific Name": "Ascochyta rabiei"
+        },
+        {
+          "Name": "Botrytis Gray Mold",
+          "Scientific Name": "Botrytis cinerea"
+        },
+        {
+          "Name": "Collar Rot",
+          "Scientific Name": "Sclerotium rolfsii"
+        },
+        {
+          "Name": "Dry Root Rot",
+          "Scientific Name": "Rhizoctonia bataticola"
+        }
+      ]
+    },
+    "Horse Gram": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora"
+        },
+        {
+          "Name": "Thrips",
+          "Scientific Name": "Caliothrips indicus"
+        },
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Helicoverpa armigera"
+        },
+        {
+          "Name": "Whitefly",
+          "Scientific Name": "Bemisia tabaci"
+        },
+        {
+          "Name": "Leaf Webber",
+          "Scientific Name": "Grapholita critica"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Powdery Mildew",
+          "Scientific Name": "Erysiphe polygoni"
+        },
+        {
+          "Name": "Leaf Spot",
+          "Scientific Name": "Cercospora spp."
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Uromyces appendiculatus"
+        },
+        {
+          "Name": "Anthracnose",
+          "Scientific Name": "Colletotrichum spp."
+        },
+        {
+          "Name": "Root Rot",
+          "Scientific Name": "Rhizoctonia solani"
+        }
+      ]
+    },
+    "Cowpea": {
+      "Pests": [
+        {
+          "Name": "Aphids",
+          "Scientific Name": "Aphis craccivora"
+        },
+        {
+          "Name": "Pod Borer",
+          "Scientific Name": "Maruca vitrata"
+        },
+        {
+          "Name": "Thrips",
+          "Scientific Name": "Caliothrips indicus"
+        },
+        {
+          "Name": "Leaf Miner",
+          "Scientific Name": "Liriomyza trifolii"
+        },
+        {
+          "Name": "Cowpea Weevil",
+          "Scientific Name": "Callosobruchus maculatus"
+        }
+      ],
+      "Diseases": [
+        {
+          "Name": "Bacterial Blight",
+          "Scientific Name": "Xanthomonas axonopodis pv. vignicola"
+        },
+        {
+          "Name": "Fusarium Wilt",
+          "Scientific Name": "Fusarium oxysporum f. sp. tracheiphilum"
+        },
+        {
+          "Name": "Anthracnose",
+          "Scientific Name": "Colletotrichum spp."
+        },
+        {
+          "Name": "Rust",
+          "Scientific Name": "Uromyces phaseoli"
+        },
+        {
+          "Name": "Powdery Mildew",
+          "Scientific Name": "Erysiphe polygoni"
+        }
+      ]
+    }
+  }
+  
